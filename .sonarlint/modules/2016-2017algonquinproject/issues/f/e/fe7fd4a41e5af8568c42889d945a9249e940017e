@@ -1,0 +1,75 @@
+
+‹squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¯×æûÿÿÿÿH¡ RMINORZ
+CODE_SMELL
+squid:S1450
+"[Remove the "solidObjects" field and declare it as a local variable in the relevant methods.(ÿÈ¯ÂıÿÿÿÿH¢ RMINORZ
+CODE_SMELL
+¥squid:S1319B"xThe type of the "solidObjects2" object should be an interface such as "List" rather than the implementation "ArrayList".(íªäH£ RMINORZ
+CODE_SMELL
+¥squid:S1319Z"xThe type of the "solidObjects2" object should be an interface such as "List" rather than the implementation "ArrayList".(ó®×´H¤ RMINORZ
+CODE_SMELL
+l
+squid:S106";Replace this usage of System.out or System.err by a logger.(”¬ç‹ÿÿÿÿÿH¥ RMAJORZ
+CODE_SMELL
+l
+squid:S106,";Replace this usage of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿH¦ RMAJORZ
+CODE_SMELL
+l
+squid:S1063";Replace this usage of System.out or System.err by a logger.(Çº¼³øÿÿÿÿH§ RMAJORZ
+CODE_SMELL
+l
+squid:S1064";Replace this usage of System.out or System.err by a logger.(™¼åÃüÿÿÿÿH¨ RMAJORZ
+CODE_SMELL
+l
+squid:S1065";Replace this usage of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿH© RMAJORZ
+CODE_SMELL
+g
+squid:S106E";Replace this usage of System.out or System.err by a logger.(À¶°Hª RMAJORZ
+CODE_SMELL
+f
+squid:S106F";Replace this usage of System.out or System.err by a logger.(ğš­HH« RMAJORZ
+CODE_SMELL
+l
+squid:S106H";Replace this usage of System.out or System.err by a logger.(ÑáŸœûÿÿÿÿH¬ RMAJORZ
+CODE_SMELL
+l
+squid:S106I";Replace this usage of System.out or System.err by a logger.(Î°Ü«ıÿÿÿÿH­ RMAJORZ
+CODE_SMELL
+g
+squid:S106L";Replace this usage of System.out or System.err by a logger.(·Ù‘íH® RMAJORZ
+CODE_SMELL
+g
+squid:S106M";Replace this usage of System.out or System.err by a logger.(Ğî¬¬H¯ RMAJORZ
+CODE_SMELL
+l
+squid:S106O";Replace this usage of System.out or System.err by a logger.(Äï¶øÿÿÿÿH° RMAJORZ
+CODE_SMELL
+g
+squid:S106]";Replace this usage of System.out or System.err by a logger.(šÓİ˜H± RMAJORZ
+CODE_SMELL
+f
+squid:S106^";Replace this usage of System.out or System.err by a logger.(ğš­HH² RMAJORZ
+CODE_SMELL
+l
+squid:S106`";Replace this usage of System.out or System.err by a logger.(ÑáŸœûÿÿÿÿH³ RMAJORZ
+CODE_SMELL
+l
+squid:S106a";Replace this usage of System.out or System.err by a logger.(Î°Ü«ıÿÿÿÿH´ RMAJORZ
+CODE_SMELL
+g
+squid:S106e";Replace this usage of System.out or System.err by a logger.(·Ù‘íHµ RMAJORZ
+CODE_SMELL
+g
+squid:S106f";Replace this usage of System.out or System.err by a logger.(Ğî¬¬H¶ RMAJORZ
+CODE_SMELL
+g
+squid:S106h";Replace this usage of System.out or System.err by a logger.(„º”¥H· RMAJORZ
+CODE_SMELL
+nsquid:S1126n"AReplace this if-then-else statement by a single return statement.(©¢›ÍH¸ RMINORZ
+CODE_SMELL
+^squid:S1135"2Complete the task associated to this TODO comment.(ç‹‚”H¹ RINFOZ
+CODE_SMELL
+Ösquid:S1598"¥This file "TestSolidObject.java" should be located in "cst8284\shape" directory, not in "D:\computer\workspace\2016-2017algonquinproject\src\algonquin\cst8284\lab4".(–´­±Hº RCRITICALZ
+CODE_SMELL
+lsquid:S1118":Add a private constructor to hide the implicit public one.(Îï‰œûÿÿÿÿH» RMAJORZ
+CODE_SMELL

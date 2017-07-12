@@ -1,0 +1,25 @@
+
+fsquid:S1698t"9Use the "equals" method if value comparison was intended.(½çıı8¬ÃØÒÑ+Há RMAJORZBUG
+nsquid:S2696×"6Make the enclosing method "static" or remove this set.(›µ©Ğ8¬ÃØÒÑ+Hâ RCRITICALZ
+CODE_SMELL
+nsquid:S2696Ø"6Make the enclosing method "static" or remove this set.(Ûóò¯8¬ÃØÒÑ+Hã RCRITICALZ
+CODE_SMELL
+ssquid:S2696±"6Make the enclosing method "static" or remove this set.(©œåêıÿÿÿÿ8¬ÃØÒÑ+Hä RCRITICALZ
+CODE_SMELL
+ssquid:S2696¼"6Make the enclosing method "static" or remove this set.(Çîñùÿÿÿÿ8¬ÃØÒÑ+Hå RCRITICALZ
+CODE_SMELL
+ssquid:S2696Ã"6Make the enclosing method "static" or remove this set.(¤«÷›ÿÿÿÿÿ8¬ÃØÒÑ+Hæ RCRITICALZ
+CODE_SMELL
+esquid:S1481š"+Remove this unused "result" local variable.(Ãë¿²şÿÿÿÿ8¬ÃØÒÑ+Hç RMINORZ
+CODE_SMELL
+çsquid:S1598"ªThis file "QuizMain.java" should be located in "cst8284\quizMaster" directory, not in "D:\computer\workspace\2016-2017algonquinproject\src\algonquin\cst8284\assignment2".(®Ş›âúÿÿÿÿ8¬ÃØÒÑ+Hè RCRITICALZ
+CODE_SMELL
+Šsquid:S3776è"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(®Êàò8¬ÃØÒÑ+Hé RCRITICALZ
+CODE_SMELL
+fsquid:S1172—",Remove this unused method parameter "stage".(š¤ıôøÿÿÿÿ8¬ÃØÒÑ+Hê RMAJORZ
+CODE_SMELL
+“squid:S1171Ş"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8¬ÃØÒÑ+Hë RMAJORZ
+CODE_SMELL
+Ssquid:S1166¸"%Either log or rethrow this exception.(ÚÕ«€8¬ÃØÒÑ+Hì RMAJORZBUG
+dsquid:S1611“"/Remove the parentheses around the "e" parameter(ËÓ×¼8¬ÃØÒÑ+Hí RMINORZ
+CODE_SMELL

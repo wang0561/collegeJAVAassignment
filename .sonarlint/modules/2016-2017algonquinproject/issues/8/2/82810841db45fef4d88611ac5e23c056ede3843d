@@ -1,0 +1,9 @@
+
+lsquid:S1118":Add a private constructor to hide the implicit public one.(Ñ³«êùÿÿÿÿH¼RMAJORZ
+CODE_SMELL
+[squid:S1854"5Remove this useless assignment to local variable "s".(¬÷ñÉH½RMAJORZBUG
+`squid:S1854"5Remove this useless assignment to local variable "s".(ãàø¬øÿÿÿÿH¾RMAJORZBUG
+`squid:S1854"5Remove this useless assignment to local variable "s".(„ÛñÄÿÿÿÿÿH¿RMAJORZBUG
+`squid:S1854"5Remove this useless assignment to local variable "s".(Ñæê»ûÿÿÿÿHÀRMAJORZBUG
+`squid:S1854
+"5Remove this useless assignment to local variable "s".(ÒÝŒãùÿÿÿÿHÁRMAJORZBUG

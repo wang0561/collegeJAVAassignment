@@ -1,0 +1,10 @@
+
+Xsquid:S1481"&Remove this unused "c" local variable.(·éüÿÿÿÿH£RMINORZ
+CODE_SMELL
+`squid:S1854"5Remove this useless assignment to local variable "c".(·éüÿÿÿÿH¤RMAJORZBUG
+Ysquid:S1068"'Remove this unused "edu" private field.(ÅÕÕşÿÿÿÿH¡RMAJORZ
+CODE_SMELL
+csquid:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿH¢RINFOZ
+CODE_SMELL
+Usquid:S1068")Remove this unused "cloth" private field.(ÎÊ¶gH RMAJORZ
+CODE_SMELL

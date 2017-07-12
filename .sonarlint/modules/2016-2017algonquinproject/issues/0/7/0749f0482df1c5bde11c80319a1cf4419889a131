@@ -1,0 +1,16 @@
+
+jsquid:S1197"8Move the array designator from the variable to the type.(©é™¥úÿÿÿÿHºRMINORZ
+CODE_SMELL
+l
+squid:S106";Replace this usage of System.out or System.err by a logger.(µáÎüÿÿÿÿH»RMAJORZ
+CODE_SMELL
+l
+squid:S106";Replace this usage of System.out or System.err by a logger.(µáÎüÿÿÿÿH¼RMAJORZ
+CODE_SMELL
+l
+squid:S106";Replace this usage of System.out or System.err by a logger.(Ş×Ç¢úÿÿÿÿH½RMAJORZ
+CODE_SMELL
+Gsquid:S1220""Move this file to a named package.H¾RMINORZ
+CODE_SMELL
+gsquid:S1118":Add a private constructor to hide the implicit public one.(ó£ß§H¿RMAJORZ
+CODE_SMELL

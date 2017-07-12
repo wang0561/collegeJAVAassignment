@@ -1,0 +1,28 @@
+
+Psquid:S1166"%Either log or rethrow this exception.(ü‘úËşÿÿÿÿHõ	RMAJORZBUG
+csquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHñ	RINFOZ
+CODE_SMELL
+g
+squid:S106";Replace this usage of System.out or System.err by a logger.(Óı÷òHí	RMAJORZ
+CODE_SMELL
+csquid:S1135"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHò	RINFOZ
+CODE_SMELL
+g
+squid:S106"";Replace this usage of System.out or System.err by a logger.(ëôßÊHî	RMAJORZ
+CODE_SMELL
+Usquid:S1068"(Remove this unused "name" private field.(Ë¥¼Hë	RMAJORZ
+CODE_SMELL
+g
+squid:S106/";Replace this usage of System.out or System.err by a logger.(­“ü®Hğ	RMAJORZ
+CODE_SMELL
+lsquid:S1118":Add a private constructor to hide the implicit public one.(ˆş½şÿÿÿÿHô	RMAJORZ
+CODE_SMELL
+Ãsquid:S1160'"Refactor this method to throw at most one checked exception instead of: algonquin.practise.BlueScreenException, algonquin.practise.ShutException(ã«úÿÿÿÿÿHö	RMAJORZ
+CODE_SMELL
+csquid:S1135!"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHó	RINFOZ
+CODE_SMELL
+usquid:S2166"CRename this class to remove "exception" or correct its inheritance.(ˆş½şÿÿÿÿHì	RMAJORZ
+CODE_SMELL
+l
+squid:S106,";Replace this usage of System.out or System.err by a logger.(Ì¢éùûÿÿÿÿHï	RMAJORZ
+CODE_SMELL

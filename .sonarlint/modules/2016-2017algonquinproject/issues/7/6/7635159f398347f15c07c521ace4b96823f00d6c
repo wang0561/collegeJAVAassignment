@@ -1,0 +1,14 @@
+
+gsquid:S1118
+":Add a private constructor to hide the implicit public one.(‚Õâ¬HÔRMAJORZ
+CODE_SMELL
+l
+squid:S106";Replace this usage of System.out or System.err by a logger.(” ‹øÿÿÿÿHÒRMAJORZ
+CODE_SMELL
+csquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHÓRINFOZ
+CODE_SMELL
+Wsquid:S1214""Move constants to a class or enum.(Î°•âúÿÿÿÿHĞRCRITICALZ
+CODE_SMELL
+l
+squid:S106";Replace this usage of System.out or System.err by a logger.(â´ê—ÿÿÿÿÿHÑRMAJORZ
+CODE_SMELL

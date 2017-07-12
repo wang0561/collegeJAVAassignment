@@ -1,0 +1,115 @@
+
+l
+squid:S106!";Replace this usage of System.out or System.err by a logger.(ïøÖ„úÿÿÿÿH”
+RMAJORZ
+CODE_SMELL
+Rsquid:S2068" Remove this hard-coded password.(îúİ¼H‹
+RBLOCKERZVULNERABILITY
+f
+squid:S106J";Replace this usage of System.out or System.err by a logger.(‚ä¬cH™
+RMAJORZ
+CODE_SMELL
+Psquid:S1166i"%Either log or rethrow this exception.(ñ“Š±üÿÿÿÿH¡
+RMAJORZBUG
+g
+squid:S106`";Replace this usage of System.out or System.err by a logger.(ºÕ°‰H›
+RMAJORZ
+CODE_SMELL
+m
+squid:S106u";Replace this usage of System.out or System.err by a logger.(‚ä¬c8ŒËÀÕÑ+H‰%RMAJORZ
+CODE_SMELL
+l
+squid:S106s";Replace this usage of System.out or System.err by a logger.(ŸúšÖÿÿÿÿÿH’
+RMAJORZ
+CODE_SMELL
+l
+squid:S106F";Replace this usage of System.out or System.err by a logger.(´Ù³ıÿÿÿÿH–
+RMAJORZ
+CODE_SMELL
+Rsquid:S1166@"%Either log or rethrow this exception.(”ı¾8£¦²ÕÑ+H—%RMAJORZBUG
+Lsquid:S2095Q"Close this "PreparedStatement".(êËÃ»úÿÿÿÿH
+RBLOCKERZBUG
+ssquid:S11326"GMove the "y" string literal on the left side of this string comparison.(¿¯38×èŞÖÑ+HÂ&RMINORZBUG
+Ysquid:S1148…"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH¦
+RMINORZVULNERABILITY
+csquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHŸ
+RINFOZ
+CODE_SMELL
+g
+squid:S106";Replace this usage of System.out or System.err by a logger.(œ¢¡µH“
+RMAJORZ
+CODE_SMELL
+_squid:S1148Z"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÿÍÖÑ+H¸&RMINORZVULNERABILITY
+Š
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(ü§è½ùÿÿÿÿH‘
+RMINORZ
+CODE_SMELL
+n
+squid:S106";Replace this usage of System.out or System.err by a logger.(€š‰¦8ÿÍÖÑ+Hµ&RMAJORZ
+CODE_SMELL
+m
+squid:S106H";Replace this usage of System.out or System.err by a logger.(À°™.8ÿÍÖÑ+H¶&RMAJORZ
+CODE_SMELL
+Ssquid:S2095z"Close this "PreparedStatement".(¹§Ã€şÿÿÿÿ8£¦²ÕÑ+H•%RBLOCKERZBUG
+_squid:S1148A"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8£¦²ÕÑ+H”%RMINORZVULNERABILITY
+~squid:S1450"QRemove the "rs" field and declare it as a local variable in the relevant methods.(ûûº‚H
+RMINORZ
+CODE_SMELL
+g
+squid:S106k";Replace this usage of System.out or System.err by a logger.(™½½ÄH’%RMAJORZ
+CODE_SMELL
+s
+squid:S1064";Replace this usage of System.out or System.err by a logger.(ãÀå£ıÿÿÿÿ8£¦²ÕÑ+Hæ$RMAJORZ
+CODE_SMELL
+o
+squid:S106”";Replace this usage of System.out or System.err by a logger.(Ïú‚¬8£¦²ÕÑ+H“%RMAJORZ
+CODE_SMELL
+gsquid:S1118	":Add a private constructor to hide the implicit public one.(åŠ¼ŸH 
+RMAJORZ
+CODE_SMELL
+Ssquid:S2095c"Close this "PreparedStatement".(í˜Ÿûÿÿÿÿ8ÿÍÖÑ+H³&RBLOCKERZBUG
+Rsquid:S1166#"%Either log or rethrow this exception.(°òÒ¬8ŸÆäÖÑ+HË&RMAJORZBUG
+s
+squid:S106f";Replace this usage of System.out or System.err by a logger.(ŞáÄçşÿÿÿÿ8êøèÕÑ+Há%RMAJORZ
+CODE_SMELL
+rsquid:S11327"GMove the "y" string literal on the left side of this string comparison.(ØÏ¨İúÿÿÿÿHÀ&RMINORZBUG
+g
+squid:S106[";Replace this usage of System.out or System.err by a logger.(²„¥îHœ
+RMAJORZ
+CODE_SMELL
+Xsquid:S1148j"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH¥
+RMINORZVULNERABILITY
+l
+squid:S106q";Replace this usage of System.out or System.err by a logger.(§°¶éÿÿÿÿÿH˜%RMAJORZ
+CODE_SMELL
+Ssquid:S1166„"%Either log or rethrow this exception.(”ı¾8ÿÍÖÑ+H·&RMAJORZBUG
+v
+squid:S128-"LEnd this switch case with an unconditional break, return or throw statement.(ø“…¸øÿÿÿÿH
+RMAJORZBUG
+Ksquid:S1166Y"%Either log or rethrow this exception.(”ı¾H¢
+RMAJORZBUG
+nsquid:S1141 "5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8ŸÆäÖÑ+HÊ&RMAJORZ
+CODE_SMELL
+l
+squid:S106X";Replace this usage of System.out or System.err by a logger.(à‚İŸşÿÿÿÿH—
+RMAJORZ
+CODE_SMELL
+t
+squid:S106";Replace this usage of System.out or System.err by a logger.(™Ş­¿øÿÿÿÿ8°”®ÖÑ+H›&RMAJORZ
+CODE_SMELL
+ssquid:S11326"GMove the "n" string literal on the left side of this string comparison.(¿¯38×èŞÖÑ+HÁ&RMINORZBUG
+o
+squid:S106†";Replace this usage of System.out or System.err by a logger.(É”ÜÉ8ÿÍÖÑ+H´&RMAJORZ
+CODE_SMELL
+o
+squid:S106‘";Replace this usage of System.out or System.err by a logger.(™”±Ä8£¦²ÕÑ+Hå$RMAJORZ
+CODE_SMELL
+h
+squid:S106‚";Replace this usage of System.out or System.err by a logger.(¥µò‡H•
+RMAJORZ
+CODE_SMELL
+n
+squid:S106>";Replace this usage of System.out or System.err by a logger.(›šö8²ÒŞÕÑ+HÅ%RMAJORZ
+CODE_SMELL
+Œsquid:S1450"XRemove the "statement" field and declare it as a local variable in the relevant methods.(ÿ¯8ØşÊÙÑ+HÙ&RMINORZ
+CODE_SMELL

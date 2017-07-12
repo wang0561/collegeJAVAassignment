@@ -1,0 +1,23 @@
+
+csquid:S1135W"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHºRINFOZ
+CODE_SMELL
+[squid:S3655?"5Call "result.isPresent()" before accessing the value.(’ËùºH¾RMAJORZBUG
+_squid:S16987"9Use the "equals" method if value comparison was intended.(½çııH¶RMAJORZBUG
+Xsquid:S1148J"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÂRMINORZVULNERABILITY
+Nsquid:S1170'"!Make this final field static too.(÷“ŒÃH¿RMINORZ
+CODE_SMELL
+^squid:S1481›"+Remove this unused "result" local variable.(Ãë¿²şÿÿÿÿH¼RMINORZ
+CODE_SMELL
+csquid:S1135I"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH¹RINFOZ
+CODE_SMELL
+csquid:S1135p"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH»RINFOZ
+CODE_SMELL
+]squid:S1611•"/Remove the parentheses around the "e" parameter(ËÓ×¼HÁRMINORZ
+CODE_SMELL
+lsquid:S2696¨"6Make the enclosing method "static" or remove this set.(©œåêıÿÿÿÿH·RCRITICALZ
+CODE_SMELL
+àsquid:S1598"ªThis file "QuizMain.java" should be located in "cst8284\quizMaster" directory, not in "D:\computer\workspace\2016-2017algonquinproject\src\algonquin\cst8284\assignment1".(‰Ù¦–şÿÿÿÿH½RCRITICALZ
+CODE_SMELL
+Ksquid:S1166H"%Either log or rethrow this exception.(¼•§œHÀRMAJORZBUG
+lsquid:S2696®"6Make the enclosing method "static" or remove this set.(¤«÷›ÿÿÿÿÿH¸RCRITICALZ
+CODE_SMELL

@@ -1,0 +1,133 @@
+
+isquid:S2184"BCast one of the operands of this division operation to a "double".(¯ÓâõHıRMINORZBUG
+gsquid:S2184"@Cast one of the operands of this integer division to a "double".(¯ÓâõHşRMINORZBUG
+ysquid:S1871¡"MThis branch's code block is the same as the block for the branch on line 159.(¥Œ›øùÿÿÿÿHÿRMINORZBUG
+ysquid:S1871£"MThis branch's code block is the same as the block for the branch on line 161.(Şè£ÏıÿÿÿÿH€RMINORZBUG
+tsquid:S1871¥"MThis branch's code block is the same as the block for the branch on line 163.(ÂòºıHRMINORZBUG
+…squid:S1450"SRemove the "half" field and declare it as a local variable in the relevant methods.(×—ÑËûÿÿÿÿH‚RMINORZ
+CODE_SMELL
+…squid:S1450"SRemove the "play" field and declare it as a local variable in the relevant methods.(†–¹óıÿÿÿÿHƒRMINORZ
+CODE_SMELL
+l
+squid:S106";Replace this usage of System.out or System.err by a logger.(µáÎüÿÿÿÿH„RMAJORZ
+CODE_SMELL
+g
+squid:S106";Replace this usage of System.out or System.err by a logger.(»Š¶«H…RMAJORZ
+CODE_SMELL
+g
+squid:S106"";Replace this usage of System.out or System.err by a logger.(…ËéœH†RMAJORZ
+CODE_SMELL
+g
+squid:S106%";Replace this usage of System.out or System.err by a logger.(˜ØòH‡RMAJORZ
+CODE_SMELL
+l
+squid:S106*";Replace this usage of System.out or System.err by a logger.(©Ë„œÿÿÿÿÿHˆRMAJORZ
+CODE_SMELL
+l
+squid:S106+";Replace this usage of System.out or System.err by a logger.(µáÎüÿÿÿÿH‰RMAJORZ
+CODE_SMELL
+f
+squid:S106,";Replace this usage of System.out or System.err by a logger.(·’àvHŠRMAJORZ
+CODE_SMELL
+l
+squid:S106-";Replace this usage of System.out or System.err by a logger.(À‚ÀÆøÿÿÿÿH‹RMAJORZ
+CODE_SMELL
+f
+squid:S106.";Replace this usage of System.out or System.err by a logger.(„ÉHŒRMAJORZ
+CODE_SMELL
+l
+squid:S106=";Replace this usage of System.out or System.err by a logger.(µáÎüÿÿÿÿHRMAJORZ
+CODE_SMELL
+l
+squid:S106A";Replace this usage of System.out or System.err by a logger.(µáÎüÿÿÿÿHRMAJORZ
+CODE_SMELL
+l
+squid:S106B";Replace this usage of System.out or System.err by a logger.(ıÖ˜ÓúÿÿÿÿHRMAJORZ
+CODE_SMELL
+l
+squid:S106N";Replace this usage of System.out or System.err by a logger.(ğ’‡ŠıÿÿÿÿHRMAJORZ
+CODE_SMELL
+l
+squid:S106O";Replace this usage of System.out or System.err by a logger.(µáÎüÿÿÿÿH‘RMAJORZ
+CODE_SMELL
+l
+squid:S106S";Replace this usage of System.out or System.err by a logger.(µáÎüÿÿÿÿH’RMAJORZ
+CODE_SMELL
+g
+squid:S106T";Replace this usage of System.out or System.err by a logger.(×˜ûáH“RMAJORZ
+CODE_SMELL
+l
+squid:S106\";Replace this usage of System.out or System.err by a logger.(µáÎüÿÿÿÿH”RMAJORZ
+CODE_SMELL
+l
+squid:S106`";Replace this usage of System.out or System.err by a logger.(µáÎüÿÿÿÿH•RMAJORZ
+CODE_SMELL
+l
+squid:S106a";Replace this usage of System.out or System.err by a logger.(•²ÕÖÿÿÿÿÿH–RMAJORZ
+CODE_SMELL
+l
+squid:S106n";Replace this usage of System.out or System.err by a logger.(µáÎüÿÿÿÿH—RMAJORZ
+CODE_SMELL
+l
+squid:S106p";Replace this usage of System.out or System.err by a logger.(ÀÍğ†üÿÿÿÿH˜RMAJORZ
+CODE_SMELL
+l
+squid:S106r";Replace this usage of System.out or System.err by a logger.(¡šÅõüÿÿÿÿH™RMAJORZ
+CODE_SMELL
+l
+squid:S106u";Replace this usage of System.out or System.err by a logger.(Ë¨÷°üÿÿÿÿHšRMAJORZ
+CODE_SMELL
+g
+squid:S106x";Replace this usage of System.out or System.err by a logger.(¶ôı©H›RMAJORZ
+CODE_SMELL
+l
+squid:S106{";Replace this usage of System.out or System.err by a logger.(¾€¶ùşÿÿÿÿHœRMAJORZ
+CODE_SMELL
+g
+squid:S106|";Replace this usage of System.out or System.err by a logger.(ÌÛ„şHRMAJORZ
+CODE_SMELL
+m
+squid:S106‚";Replace this usage of System.out or System.err by a logger.(µáÎüÿÿÿÿHRMAJORZ
+CODE_SMELL
+h
+squid:S106„";Replace this usage of System.out or System.err by a logger.(½ûóHŸRMAJORZ
+CODE_SMELL
+h
+squid:S106†";Replace this usage of System.out or System.err by a logger.(¸æ“H RMAJORZ
+CODE_SMELL
+m
+squid:S106Š";Replace this usage of System.out or System.err by a logger.(ˆ–ˆüùÿÿÿÿH¡RMAJORZ
+CODE_SMELL
+m
+squid:S106µ";Replace this usage of System.out or System.err by a logger.(µáÎüÿÿÿÿH¢RMAJORZ
+CODE_SMELL
+osquid:S1126"AReplace this if-then-else statement by a single return statement.(ÓÖùÏH£RMINORZ
+CODE_SMELL
+tsquid:S1126•"AReplace this if-then-else statement by a single return statement.(µáÎüÿÿÿÿH¤RMINORZ
+CODE_SMELL
+osquid:S1126¥"AReplace this if-then-else statement by a single return statement.(ÂòºıH¥RMINORZ
+CODE_SMELL
+Zsquid:S1125s"(Remove the literal "true" boolean value.(æÀö€øÿÿÿÿH¦RMINORZ
+CODE_SMELL
+[squid:S1125v")Remove the literal "false" boolean value.(Îì°…şÿÿÿÿH§RMINORZ
+CODE_SMELL
+Vsquid:S1125y")Remove the literal "false" boolean value.(ÌÛ„şH¨RMINORZ
+CODE_SMELL
+csquid:S1244y"=Equality tests should not be made with floating point values.(ÌÛ„şH©RMAJORZBUG
+isquid:S1244•"=Equality tests should not be made with floating point values.(µáÎüÿÿÿÿHªRMAJORZBUG
+psquid:S1132_"JMove the "high" string literal on the left side of this string comparison.(ß¾€H«RMINORZBUG
+osquid:S1132_"IMove the "low" string literal on the left side of this string comparison.(ß¾€H¬RMINORZBUG
+osquid:S1132_"IMove the "odd" string literal on the left side of this string comparison.(ß¾€H­RMINORZBUG
+psquid:S1132_"JMove the "even" string literal on the left side of this string comparison.(ß¾€H®RMINORZBUG
+ssquid:S1132ˆ"GMove the "y" string literal on the left side of this string comparison.(ŞÒ—üÿÿÿÿH¯RMINORZBUG
+ssquid:S1132ˆ"GMove the "n" string literal on the left side of this string comparison.(ŞÒ—üÿÿÿÿH°RMINORZBUG
+usquid:S1132‰"IMove the "yes" string literal on the left side of this string comparison.(µáÎüÿÿÿÿH±RMINORZBUG
+tsquid:S1132‰"HMove the "no" string literal on the left side of this string comparison.(µáÎüÿÿÿÿH²RMINORZBUG
+nsquid:S1132"GMove the "y" string literal on the left side of this string comparison.(ÓÖùÏH³RMINORZBUG
+psquid:S1132"IMove the "yes" string literal on the left side of this string comparison.(ÓÖùÏH´RMINORZBUG
+qsquid:S1132Ÿ"JMove the "even" string literal on the left side of this string comparison.(ªÜÛõHµRMINORZBUG
+usquid:S1132¡"IMove the "odd" string literal on the left side of this string comparison.(¥Œ›øùÿÿÿÿH¶RMINORZBUG
+vsquid:S1132£"JMove the "high" string literal on the left side of this string comparison.(Şè£ÏıÿÿÿÿH·RMINORZBUG
+psquid:S1132¥"IMove the "low" string literal on the left side of this string comparison.(ÂòºıH¸RMINORZBUG
+Gsquid:S1220""Move this file to a named package.H¹RMINORZ
+CODE_SMELL

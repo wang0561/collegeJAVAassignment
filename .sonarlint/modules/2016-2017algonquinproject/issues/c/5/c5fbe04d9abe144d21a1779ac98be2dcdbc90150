@@ -1,0 +1,29 @@
+
+Ysquid:S1148‚"#Use a logger to log this exception.(ÂşÿâûÿÿÿÿHùRMINORZVULNERABILITY
+…squid:S1450 "SRemove the "list" field and declare it as a local variable in the relevant methods.(ç“¿ğûÿÿÿÿHíRMINORZ
+CODE_SMELL
+Csquid:S2095"Close this "Scanner".(Â¢üÿÿÿÿÿHîRBLOCKERZBUG
+Ysquid:S1148™"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHúRMINORZVULNERABILITY
+[squid:S3655A"5Call "result.isPresent()" before accessing the value.(’ËùºHôRMAJORZBUG
+squid:S1319‰"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ä÷íHğRMINORZ
+CODE_SMELL
+Lsquid:S1166€"%Either log or rethrow this exception.(ŸäÁ‚HöRMAJORZBUG
+†squid:S2293["YReplace the type specification in this constructor call with the diamond operator ("<>").(”âÑÃHéRMINORZ
+CODE_SMELL
+Ksquid:S1166t"%Either log or rethrow this exception.(ŸäÁ‚HõRMAJORZBUG
+€squid:S1450"SRemove the "data" field and declare it as a local variable in the relevant methods.(ÓÂ•‰HëRMINORZ
+CODE_SMELL
+ksquid:S1197Ÿ"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿHèRMINORZ
+CODE_SMELL
+squid:S1450"TRemove the "listV" field and declare it as a local variable in the relevant methods.(µı§’HìRMINORZ
+CODE_SMELL
+csquid:S1135u"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHñRINFOZ
+CODE_SMELL
+Œsquid:S2293‘"YReplace the type specification in this constructor call with the diamond operator ("<>").(óæøÄüÿÿÿÿHêRMINORZ
+CODE_SMELL
+Xsquid:S1148v"#Use a logger to log this exception.(ÂşÿâûÿÿÿÿHøRMINORZVULNERABILITY
+œsquid:S1319W"oThe type of the "list" object should be an interface such as "List" rather than the implementation "ArrayList".(ØÜã¯HïRMINORZ
+CODE_SMELL
+Lsquid:S1166—"%Either log or rethrow this exception.(‹±ÃÆH÷RMAJORZBUG
+dsquid:S1135"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHòRINFOZ
+CODE_SMELL

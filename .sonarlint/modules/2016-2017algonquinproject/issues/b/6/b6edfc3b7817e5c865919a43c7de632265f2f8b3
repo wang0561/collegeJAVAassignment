@@ -1,0 +1,16 @@
+
+Š
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(ÊÓÍ«øÿÿÿÿHòRMINORZ
+CODE_SMELL
+[squid:S1125")Remove the literal "false" boolean value.(ÊÓÍ«øÿÿÿÿHóRMINORZ
+CODE_SMELL
+Vsquid:S1125")Remove the literal "false" boolean value.(Ö©§˜HôRMINORZ
+CODE_SMELL
+[squid:S1125")Remove the literal "false" boolean value.(äşü†ıÿÿÿÿHõRMINORZ
+CODE_SMELL
+csquid:S1135	"2Complete the task associated to this TODO comment.(µáÎüÿÿÿÿHöRINFOZ
+CODE_SMELL
+Gsquid:S1220""Move this file to a named package.H÷RMINORZ
+CODE_SMELL
+lsquid:S1118":Add a private constructor to hide the implicit public one.(ı·ìİüÿÿÿÿHøRMAJORZ
+CODE_SMELL

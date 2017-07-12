@@ -1,0 +1,28 @@
+
+g
+squid:S106";Replace this usage of System.out or System.err by a logger.(ãÃ®HÂRMAJORZ
+CODE_SMELL
+l
+squid:S106";Replace this usage of System.out or System.err by a logger.(ñŒŞåşÿÿÿÿHÃRMAJORZ
+CODE_SMELL
+l
+squid:S106S";Replace this usage of System.out or System.err by a logger.(æÀö€øÿÿÿÿHÄRMAJORZ
+CODE_SMELL
+l
+squid:S106T";Replace this usage of System.out or System.err by a logger.(µáÎüÿÿÿÿHÅRMAJORZ
+CODE_SMELL
+l
+squid:S106U";Replace this usage of System.out or System.err by a logger.(›ç‹£úÿÿÿÿHÆRMAJORZ
+CODE_SMELL
+g
+squid:S106V";Replace this usage of System.out or System.err by a logger.(ã¨É•HÇRMAJORZ
+CODE_SMELL
+g
+squid:S106W";Replace this usage of System.out or System.err by a logger.(¤ÛëøHÈRMAJORZ
+CODE_SMELL
+csquid:S1135"2Complete the task associated to this TODO comment.(µáÎüÿÿÿÿHÉRINFOZ
+CODE_SMELL
+Gsquid:S1220""Move this file to a named package.HÊRMINORZ
+CODE_SMELL
+lsquid:S1118":Add a private constructor to hide the implicit public one.(ÒÜÅ¸úÿÿÿÿHËRMAJORZ
+CODE_SMELL

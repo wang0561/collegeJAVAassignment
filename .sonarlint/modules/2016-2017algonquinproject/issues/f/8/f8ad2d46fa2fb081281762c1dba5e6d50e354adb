@@ -1,0 +1,35 @@
+
+nsquid:S2184E"HCast one of the operands of this multiplication operation to a "double".(ŽèŸ»H RMINORZBUG
+xsquid:S1301("KReplace this "switch" statement by "if" statements to increase readability.(¨ÕÉH¡RMINORZ
+CODE_SMELL
+g
+squid:S106";Replace this usage of System.out or System.err by a logger.(Ç €þH¢RMAJORZ
+CODE_SMELL
+l
+squid:S106";Replace this usage of System.out or System.err by a logger.(ÉãèÑÿÿÿÿÿH£RMAJORZ
+CODE_SMELL
+g
+squid:S106";Replace this usage of System.out or System.err by a logger.(Åªõ H¤RMAJORZ
+CODE_SMELL
+l
+squid:S106";Replace this usage of System.out or System.err by a logger.(Øò®ÙøÿÿÿÿH¥RMAJORZ
+CODE_SMELL
+l
+squid:S106";Replace this usage of System.out or System.err by a logger.(¶®ªÐúÿÿÿÿH¦RMAJORZ
+CODE_SMELL
+g
+squid:S1063";Replace this usage of System.out or System.err by a logger.(–©¦¤H§RMAJORZ
+CODE_SMELL
+l
+squid:S1067";Replace this usage of System.out or System.err by a logger.(ò†ïàùÿÿÿÿH¨RMAJORZ
+CODE_SMELL
+osquid:S2583:"DChange this condition so that it does not always evaluate to "false"(×Ñà´ûÿÿÿÿH©RMAJORZBUG
+msquid:S1132"GMove the "y" string literal on the left side of this string comparison.(ÆöžHªRMINORZBUG
+csquid:S1135#"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿH«RINFOZ
+CODE_SMELL
+csquid:S1135>"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿH¬RINFOZ
+CODE_SMELL
+csquid:S1135D"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿH­RINFOZ
+CODE_SMELL
+Jsquid:S11662"%Either log or rethrow this exception.(ÿÕœRH®RMAJORZBUG
+Psquid:S11666"%Either log or rethrow this exception.(Ð¡ÉýþÿÿÿÿH¯RMAJORZBUG

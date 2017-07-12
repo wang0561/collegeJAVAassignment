@@ -1,0 +1,108 @@
+
+squid:S1192ô"WDefine a constant instead of duplicating this literal "-fx-alignment: CENTER;" 4 times.(æ¢¢ñıÿÿÿÿHëRCRITICALZ
+CODE_SMELL
+nsquid:S2184ı"BCast one of the operands of this division operation to a "double".(ÜËç‡ıÿÿÿÿHéRMINORZBUG
+]squid:S1066˜"/Merge this if statement with the enclosing one.(ï£ÆêHîRMAJORZ
+CODE_SMELL
+‚squid:S1192­"QDefine a constant instead of duplicating this literal "-fx-font-size:20" 7 times.(ºó“¸HíRCRITICALZ
+CODE_SMELL
+dsquid:S1135Â"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH‡RINFOZ
+CODE_SMELL
+°squid:S1192©"Define a constant instead of duplicating this literal "-fx-font: 30px Tahoma; -fx-stroke: black; -fx-stroke-width: 1;" 7 times.(«¢ö’HìRCRITICALZ
+CODE_SMELL
+dsquid:S1135©"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH‹RINFOZ
+CODE_SMELL
+dsquid:S1135Í"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHRINFOZ
+CODE_SMELL
+dsquid:S1854Š"8Remove this useless assignment to local variable "mean".(ÍÇ£ÿÿÿÿÿHŸRMAJORZBUG
+csquid:S1135E"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH„RINFOZ
+CODE_SMELL
+[squid:S1604…"(Make this anonymous inner class a lambda( ¸ñïùÿÿÿÿHRMAJORZ
+CODE_SMELL
+†
+squid:S135¤"YReduce the total number of break and continue statements in this loop to use at most one.(ŞÙ»HüRMINORZ
+CODE_SMELL
+dsquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHŠRINFOZ
+CODE_SMELL
+dsquid:S1135ú"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH‰RINFOZ
+CODE_SMELL
+h
+squid:S106";Replace this usage of System.out or System.err by a logger.(‡©öêHıRMAJORZ
+CODE_SMELL
+Œsquid:S1488ö"^Immediately return this expression instead of assigning it to the temporary variable "standD".(Ëëµ”H€RMINORZ
+CODE_SMELL
+[squid:S1604É"(Make this anonymous inner class a lambda(†÷áüÿÿÿÿH—RMAJORZ
+CODE_SMELL
+squid:S1488À"\Immediately return this expression instead of assigning it to the temporary variable "temp".(Ãş³êúÿÿÿÿH‚RMINORZ
+CODE_SMELL
+[squid:S1604–"(Make this anonymous inner class a lambda(†÷áüÿÿÿÿHšRMAJORZ
+CODE_SMELL
+[squid:S1604æ"(Make this anonymous inner class a lambda(†÷áüÿÿÿÿH˜RMAJORZ
+CODE_SMELL
+hsquid:S1141´"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿHƒRMAJORZ
+CODE_SMELL
+[squid:S1604°"(Make this anonymous inner class a lambda(†÷áüÿÿÿÿH›RMAJORZ
+CODE_SMELL
+Lsquid:S1166"%Either log or rethrow this exception.(”ı¾H‘RMAJORZBUG
+]squid:S1066²"/Merge this if statement with the enclosing one.(ï£ÆêHïRMAJORZ
+CODE_SMELL
+Œsquid:S1488š"^Immediately return this expression instead of assigning it to the temporary variable "standD".(Ëëµ”HRMINORZ
+CODE_SMELL
+]squid:S1066ê"/Merge this if statement with the enclosing one.(ï£ÆêHñRMAJORZ
+CODE_SMELL
+dsquid:S1135Å"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHŒRINFOZ
+CODE_SMELL
+[squid:S1604„"(Make this anonymous inner class a lambda(¹ÍÙıÿÿÿÿHRMAJORZ
+CODE_SMELL
+dsquid:S1135ß"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHˆRINFOZ
+CODE_SMELL
+tsquid:S2184‹"HCast one of the operands of this multiplication operation to a "double".(¤¶Å”şÿÿÿÿHçRMINORZBUG
+m
+squid:S106Ç";Replace this usage of System.out or System.err by a logger.(¡Æó™şÿÿÿÿHşRMAJORZ
+CODE_SMELL
+Usquid:S1604”"(Make this anonymous inner class a lambda(“è‡H•RMAJORZ
+CODE_SMELL
+nsquid:S2184ü"BCast one of the operands of this division operation to a "double".(ã—¼ÉşÿÿÿÿHèRMINORZBUG
+[squid:S1604®"(Make this anonymous inner class a lambda(†÷áüÿÿÿÿH–RMAJORZ
+CODE_SMELL
+]squid:S1066´"/Merge this if statement with the enclosing one.(ï£ÆêHôRMAJORZ
+CODE_SMELL
+Lsquid:S1166•"%Either log or rethrow this exception.(°òÒ¬H’RMAJORZBUG
+[squid:S1604Ì"(Make this anonymous inner class a lambda(†÷áüÿÿÿÿHœRMAJORZ
+CODE_SMELL
+‡squid:S2293€"YReplace the type specification in this constructor call with the diamond operator ("<>").(†Ö·ÚHøRMINORZ
+CODE_SMELL
+rsquid:S3518ü"CMake sure this expression can't be zero before doing this division.(ã—¼ÉşÿÿÿÿHúRCRITICALZBUG
+dsquid:S1135§"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH†RINFOZ
+CODE_SMELL
+‹
+squid:S135ì"YReduce the total number of break and continue statements in this loop to use at most one.(ò“âÉûÿÿÿÿHûRMINORZ
+CODE_SMELL
+]squid:S1066ˆ"/Merge this if statement with the enclosing one.(ï£ÆêHöRMAJORZ
+CODE_SMELL
+csquid:S1135x"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH…RINFOZ
+CODE_SMELL
+Lsquid:S1166¸"%Either log or rethrow this exception.(”ı¾H“RMAJORZBUG
+osquid:S2583Ä"CChange this condition so that it does not always evaluate to "true"(ğ¯ìÏıÿÿÿÿHÿRMAJORZBUG
+]squid:S1066Ğ"/Merge this if statement with the enclosing one.(ï£ÆêHõRMAJORZ
+CODE_SMELL
+nsquid:S2184ş"BCast one of the operands of this division operation to a "double".(÷Èæ•úÿÿÿÿHêRMINORZBUG
+]squid:S1066Í"/Merge this if statement with the enclosing one.(ï£ÆêHğRMAJORZ
+CODE_SMELL
+Œsquid:S2293Ò"YReplace the type specification in this constructor call with the diamond operator ("<>").(À“¤’øÿÿÿÿHùRMINORZ
+CODE_SMELL
+[squid:S1604"(Make this anonymous inner class a lambda(†÷áüÿÿÿÿH™RMAJORZ
+CODE_SMELL
+]squid:S1066š"/Merge this if statement with the enclosing one.(ï£ÆêHóRMAJORZ
+CODE_SMELL
+]squid:S1066‰"/Merge this if statement with the enclosing one.(ï£ÆêH÷RMAJORZ
+CODE_SMELL
+]squid:S1172a"+Remove this unused method parameter "list".(¨²ÄƒûÿÿÿÿHRMAJORZ
+CODE_SMELL
+Lsquid:S1166Æ"%Either log or rethrow this exception.(Æâ­êH”RMAJORZBUG
+ˆsquid:S3776Ò"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(º©ï¸şÿÿÿÿHRCRITICALZ
+CODE_SMELL
+dsquid:S1135ç"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHRINFOZ
+CODE_SMELL
+]squid:S1066…"/Merge this if statement with the enclosing one.(ï£ÆêHòRMAJORZ
+CODE_SMELL

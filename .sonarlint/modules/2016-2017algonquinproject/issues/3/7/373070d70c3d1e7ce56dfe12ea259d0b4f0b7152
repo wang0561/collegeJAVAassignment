@@ -1,0 +1,46 @@
+
+g
+squid:S106";Replace this usage of System.out or System.err by a logger.(ë¦µùHùRMAJORZ
+CODE_SMELL
+l
+squid:S106";Replace this usage of System.out or System.err by a logger.(œàÒÂşÿÿÿÿHıRMAJORZ
+CODE_SMELL
+g
+squid:S106";Replace this usage of System.out or System.err by a logger.(Ü¸±İH„RMAJORZ
+CODE_SMELL
+{squid:S1192"FDefine a constant instead of duplicating this literal "equal" 4 times.(ÚÜµ„şÿÿÿÿHøRCRITICALZ
+CODE_SMELL
+l
+squid:S106";Replace this usage of System.out or System.err by a logger.(ÀÒÉ·ÿÿÿÿÿHÿRMAJORZ
+CODE_SMELL
+f
+squid:S106
+";Replace this usage of System.out or System.err by a logger.(î€ÏHûRMAJORZ
+CODE_SMELL
+l
+squid:S106";Replace this usage of System.out or System.err by a logger.(¾æùÿÿÿÿHşRMAJORZ
+CODE_SMELL
+l
+squid:S106";Replace this usage of System.out or System.err by a logger.(ÚÜµ„şÿÿÿÿH‚RMAJORZ
+CODE_SMELL
+l
+squid:S106";Replace this usage of System.out or System.err by a logger.(ûæá‡ûÿÿÿÿHüRMAJORZ
+CODE_SMELL
+l
+squid:S106";Replace this usage of System.out or System.err by a logger.(‘¢ç’ÿÿÿÿÿHƒRMAJORZ
+CODE_SMELL
+lsquid:S1118":Add a private constructor to hide the implicit public one.(‘®ÅŒúÿÿÿÿH‡RMAJORZ
+CODE_SMELL
+l
+squid:S106";Replace this usage of System.out or System.err by a logger.( ÏŞÿÿÿÿÿH…RMAJORZ
+CODE_SMELL
+g
+squid:S106";Replace this usage of System.out or System.err by a logger.(çŞï‡HRMAJORZ
+CODE_SMELL
+l
+squid:S106	";Replace this usage of System.out or System.err by a logger.(úØòáıÿÿÿÿHúRMAJORZ
+CODE_SMELL
+l
+squid:S106";Replace this usage of System.out or System.err by a logger.(€¥Õ‡ıÿÿÿÿH€RMAJORZ
+CODE_SMELL
+ˆsquid:S2159"VRemove this call to "equals"; comparisons between unrelated types always return false.(ÚÜµ„şÿÿÿÿ8ÔÅ×ÒÑ+Hà RMAJORZBUG

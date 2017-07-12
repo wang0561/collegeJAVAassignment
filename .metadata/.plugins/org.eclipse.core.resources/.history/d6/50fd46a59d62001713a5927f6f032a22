@@ -1,0 +1,33 @@
+		public class RecipeIngredient {
+				    
+			private double value;
+			private String unit;
+			private  String ingredient;
+				   
+		   public RecipeIngredient(){
+				    	 this.value= 1;
+				         this.unit="teaspoon";
+				         this.ingredient="stuff";
+				     }
+	       public RecipeIngredient(String ing){
+
+		    	
+					        this.ingredient=ing;
+					     } 
+					        			 
+					  
+		 public void setValue( double val,String ut){
+				    	 this.value=val;
+				    	 this.unit=ut;
+				    	
+				    		
+				
+				    	 }
+				      
+		 public void getAmount(){  
+					              System.out.println(" "+value+" "+unit+" "+ingredient);
+				       
+				                  System.out.println();  
+				   
+				   }
+				}

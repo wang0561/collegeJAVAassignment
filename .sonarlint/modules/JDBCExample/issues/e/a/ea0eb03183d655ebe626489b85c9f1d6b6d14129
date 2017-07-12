@@ -1,0 +1,95 @@
+
+squid:S1192t"[Define a constant instead of duplicating this literal "LDAO:dbSelectByPrimaryKey(" 3 times.(³€”çûÿÿÿÿHŒ'RCRITICALZ
+CODE_SMELL
+‘squid:S1192e"\Define a constant instead of duplicating this literal "Error releasing resources <" 4 times.(ó£õãøÿÿÿÿH'RCRITICALZ
+CODE_SMELL
+|squid:S1192ê"FDefine a constant instead of duplicating this literal "Lease" 5 times.(Æòî×ùÿÿÿÿH'RCRITICALZ
+CODE_SMELL
+wsquid:S1192K"GDefine a constant instead of duplicating this literal ", stm)" 3 times.(ãÜ‡ñH'RCRITICALZ
+CODE_SMELL
+‡squid:S2293ß"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ô©‚»H'RMINORZ
+CODE_SMELL
+l
+squid:S106?";Replace this usage of System.out or System.err by a logger.(ŒÏ³ëùÿÿÿÿH‘'RMAJORZ
+CODE_SMELL
+g
+squid:S106K";Replace this usage of System.out or System.err by a logger.(ãÜ‡ñH’'RMAJORZ
+CODE_SMELL
+l
+squid:S106e";Replace this usage of System.out or System.err by a logger.(ó£õãøÿÿÿÿH“'RMAJORZ
+CODE_SMELL
+l
+squid:S106i";Replace this usage of System.out or System.err by a logger.(Ó‘®…ûÿÿÿÿH”'RMAJORZ
+CODE_SMELL
+l
+squid:S106t";Replace this usage of System.out or System.err by a logger.(³€”çûÿÿÿÿH•'RMAJORZ
+CODE_SMELL
+h
+squid:S106ƒ";Replace this usage of System.out or System.err by a logger.(ôÖ¬H–'RMAJORZ
+CODE_SMELL
+h
+squid:S106’";Replace this usage of System.out or System.err by a logger.(¹–ïÇH—'RMAJORZ
+CODE_SMELL
+m
+squid:S106¹";Replace this usage of System.out or System.err by a logger.(ó£õãøÿÿÿÿH˜'RMAJORZ
+CODE_SMELL
+h
+squid:S106Ç";Replace this usage of System.out or System.err by a logger.(õ‡˜ŞH™'RMAJORZ
+CODE_SMELL
+h
+squid:S106Ó";Replace this usage of System.out or System.err by a logger.(Óí†Hš'RMAJORZ
+CODE_SMELL
+m
+squid:S106ì";Replace this usage of System.out or System.err by a logger.(ó£õãøÿÿÿÿH›'RMAJORZ
+CODE_SMELL
+m
+squid:S106ú";Replace this usage of System.out or System.err by a logger.(÷šĞ¯şÿÿÿÿHœ'RMAJORZ
+CODE_SMELL
+m
+squid:S106†";Replace this usage of System.out or System.err by a logger.(‡»ˆúÿÿÿÿH'RMAJORZ
+CODE_SMELL
+m
+squid:S106¨";Replace this usage of System.out or System.err by a logger.(ó£õãøÿÿÿÿH'RMAJORZ
+CODE_SMELL
+m
+squid:S106³";Replace this usage of System.out or System.err by a logger.(„ÑÌñüÿÿÿÿHŸ'RMAJORZ
+CODE_SMELL
+m
+squid:S106¿";Replace this usage of System.out or System.err by a logger.(°Ü…€ûÿÿÿÿH 'RMAJORZ
+CODE_SMELL
+h
+squid:S106è";Replace this usage of System.out or System.err by a logger.(®«ï˜H¡'RMAJORZ
+CODE_SMELL
+ssquid:S1226N"FIntroduce a new variable instead of reusing the parameter "insertStm".(ë™£šH¢'RMINORZ
+CODE_SMELL
+tsquid:S1226™"FIntroduce a new variable instead of reusing the parameter "selectStm".(ÔŸÇùH£'RMINORZ
+CODE_SMELL
+ysquid:S1226Ø"FIntroduce a new variable instead of reusing the parameter "selectStm".(£ÖÌÿÿÿÿÿH¤'RMINORZ
+CODE_SMELL
+ysquid:S1226Ä"FIntroduce a new variable instead of reusing the parameter "deleteStm".(Îæ¨ùÿÿÿÿH¥'RMINORZ
+CODE_SMELL
+Xsquid:S1905@"+Remove this unnecessary cast to "LeaseDAO".(Ïé’ùH¦'RMINORZ
+CODE_SMELL
+Ssquid:S1481@"&Remove this unused "d" local variable.(Ïé’ùH§'RMINORZ
+CODE_SMELL
+Psquid:S1166^"%Either log or rethrow this exception.(¤¸±³üÿÿÿÿH¨'RMAJORZBUG
+Psquid:S1166d"%Either log or rethrow this exception.(±Ÿ—±ÿÿÿÿÿH©'RMAJORZBUG
+Qsquid:S1166°"%Either log or rethrow this exception.(¤¸±³üÿÿÿÿHª'RMAJORZBUG
+Qsquid:S1166¸"%Either log or rethrow this exception.(±Ÿ—±ÿÿÿÿÿH«'RMAJORZBUG
+Qsquid:S1166ä"%Either log or rethrow this exception.(¤¸±³üÿÿÿÿH¬'RMAJORZBUG
+Qsquid:S1166ë"%Either log or rethrow this exception.(±Ÿ—±ÿÿÿÿÿH­'RMAJORZBUG
+Qsquid:S1166Ÿ"%Either log or rethrow this exception.(¤¸±³üÿÿÿÿH®'RMAJORZBUG
+Qsquid:S1166§"%Either log or rethrow this exception.(±Ÿ—±ÿÿÿÿÿH¯'RMAJORZBUG
+Qsquid:S1166Ò"%Either log or rethrow this exception.(¤¸±³üÿÿÿÿH°'RMAJORZBUG
+Qsquid:S1166Ù"%Either log or rethrow this exception.(ƒëÊ…ıÿÿÿÿH±'RMAJORZBUG
+Qsquid:S1166ı"%Either log or rethrow this exception.(¤¸±³üÿÿÿÿH²'RMAJORZBUG
+Qsquid:S1166…"%Either log or rethrow this exception.(ƒëÊ…ıÿÿÿÿH³'RMAJORZBUG
+[squid:S1854@"5Remove this useless assignment to local variable "d".(Ïé’ùH´'RMAJORZBUG
+[squid:S1143Ú"4Remove this throw statement from this finally block.(·¿öÒHµ'RMAJORZBUG
+[squid:S1143†"4Remove this throw statement from this finally block.(·¿öÒH¶'RMAJORZBUG
+msquid:S1161”":Add the "@Override" annotation above this method signature(Ğ¡¥ÚøÿÿÿÿH·'RMAJORZ
+CODE_SMELL
+hsquid:S1161":Add the "@Override" annotation above this method signature(§«€¥H¸'RMAJORZ
+CODE_SMELL
+dsquid:S1163Ú"=Refactor this code to not throw exceptions in finally blocks.(·¿öÒH¹'RMAJORZBUG
+dsquid:S1163†"=Refactor this code to not throw exceptions in finally blocks.(·¿öÒHº'RMAJORZBUG

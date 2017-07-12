@@ -1,0 +1,140 @@
+/*
+ * Lab2
+ * network package
+ * ShannonsTheorem.java
+ * This java file extends from ShannonsModel.java 
+ */
+package network;
+
+import javax.swing.JOptionPane;
+import java.lang.NumberFormatException;
+
+/**
+ * CLass data for allow user to enter the value of 
+ * bandwidth and SNR to calculate the value of max data rate
+ * @author wang,Tao
+ * @version 1.0
+ */
+public class ShannonsTheorem {
+	/**
+	 * private ShannonsModel model
+	 * */
+	private static ShannonsModel model=new ShannonsModel();
+	
+
+	/**
+	 * Method of main, start point of the program
+	 * 
+	 * @param args String value
+	 */
+	public static void main(String[] args) {
+		String exit="Y";
+		//i for a while condition
+		int i=0;
+		//initial a double value of bindWidth
+		double bindWidth =0;
+		//initial a double value of SNR
+		double signalToNoise=0 ;
+	
+		//let user enter a value  of bindWidth and validate it is correct as a positive number.
+
+		try{
+			do{
+
+				do{
+					try {
+						//prompt user to enter the value of bindWidth
+						String tempBandwidth = JOptionPane.showInputDialog("Please enter the value of Bandwidth In Hertz(positive number).");
+						//get the input from user
+						bindWidth = Double.parseDouble(tempBandwidth);
+						//bindWidth must be positive number
+						model.setBindwidth(bindWidth);
+						//if no errors, program continue to next line
+						break;
+					} catch (NumberFormatException e2) {
+						//if exception thrown, let the user entrer value again
+						JOptionPane.showMessageDialog(null, "please enter a correct postive number");
+						continue;
+					} catch(NullPointerException e3){
+						//if user click on "cancel", program end
+						System.exit(0);
+					}
+				}while(i==0);
+				//allow user to enter a value of bindWidth and validate it is correct as a number
+				do{
+					try{
+						//prompt user to enter the value of SNR
+						String tempSNR = JOptionPane.showInputDialog("Please enter the value of Signal to Noise in DB(-100 to 100).");
+						//get the input from user
+						signalToNoise = Double.parseDouble(tempSNR);
+						//set the value of SNR from user
+						model.setSignalToNoise(signalToNoise);
+						//if no errors, program continue to next line
+						break;
+					}catch(NumberFormatException e1){
+						//if exception thrown, let the user entrer value again
+						JOptionPane.showMessageDialog(null, "Please enter correct a number bewteen -100 to 100");
+						continue;
+					} catch(NullPointerException e4){
+						//if user click on "cancel", program end
+						System.exit(0);
+					}
+				}while(i==0);
+				//call the tostring method to display the result
+				JOptionPane.showMessageDialog(null, model.toString());
+				//Ask user to do again or not
+				exit=JOptionPane.showInputDialog("Do you want to exit?\n enter n or N to continue, or enter any others to exit");
+
+			}while(exit.equalsIgnoreCase("N"));
+		}catch(NullPointerException e){System.exit(0);}
+	}
+
+	/**
+	 *  constructor of ShannonsTheorem
+	 */
+	public ShannonsTheorem() {
+		super();
+	}
+	/**
+	 * Method  getter of Bandwidth
+	 * 
+	 * @return Bandwidth
+	 */
+	public double getBindWidth() {
+		return model.getBandwidth();
+	}
+	/**
+	 * Method to set the Bandwidth
+	 * 
+	 * @param bindWidth The value of bindwidth
+	 */
+	public void setBindWidth(double bindWidth) {
+		model.setBindwidth(bindWidth);
+	}
+	/**
+	 *Method to  get SignalToNoise
+	 * 
+	 * @return SignaltoNoise
+	 */
+	public double getSignalToNoise() {
+		return model.getSignalToNoise();
+	}
+	/**
+	 * Method to set SignalToNoise
+	 * 
+	 * @param signalToNoise value of signalToNoise
+	 */
+	public void setSignalToNoise(double signalToNoise) {
+		//set the value of SNR
+		 model.setSignalToNoise(signalToNoise);
+	}
+	/**
+	 * Method to getter of MDR
+	 * 
+	 * @return MaxinumDataRate
+	 */
+	public double getMaxinumDataRate() {
+		//call overloading method
+		return model.getMaxinumDataRate();
+	}
+}

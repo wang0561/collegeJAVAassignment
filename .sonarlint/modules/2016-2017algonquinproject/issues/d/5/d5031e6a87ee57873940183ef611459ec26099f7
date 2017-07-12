@@ -1,0 +1,8 @@
+
+csquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH RINFOZ
+CODE_SMELL
+Òsquid:S1598"œThis file "Square.java" should be located in "cst8284\shape" directory, not in "D:\computer\workspace\2016-2017algonquinproject\src\algonquin\cst8284\lab2".(Œ©ÑÀúÿÿÿÿH  RCRITICALZ
+CODE_SMELL
+csquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHŸ RINFOZ
+CODE_SMELL
+vsquid:S1206$"PThis class overrides "equals()" and should therefore also override "hashCode()".(ÜÑãH RMINORZBUG

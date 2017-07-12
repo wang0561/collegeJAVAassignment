@@ -1,0 +1,18 @@
+
+Dsquid:S2095k"Close this "FileReader".(Äî¯­üÿÿÿÿHnRBLOCKERZBUG
+ƒsquid:S1450"WRemove the "fileInfo" field and declare it as a local variable in the relevant methods.(û“ÑôHmRMINORZ
+CODE_SMELL
+Wsquid:S1148v"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHtRMINORZVULNERABILITY
+Zsquid:S1854q"5Remove this useless assignment to local variable "i".(ò÷Ä“HsRMAJORZBUG
+Jsquid:S1166t"%Either log or rethrow this exception.(‹±ÃÆHrRMAJORZBUG
+Ïsquid:S1598"ŸThis file "WordDump.java" should be located in "cst8284\FileIO" directory, not in "D:\computer\workspace\2016-2017algonquinproject\src\algonquin\cst8284\lab3".(ö»Ä½HqRCRITICALZ
+CODE_SMELL
+isquid:S1197|"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿHkRMINORZ
+CODE_SMELL
+f
+squid:S1062";Replace this usage of System.out or System.err by a logger.(ÇÖ¬ÇHoRMAJORZ
+CODE_SMELL
+Xsquid:S1068",Remove this unused "Iterator" private field.(İçêÉHlRMAJORZ
+CODE_SMELL
+bsquid:S1135u"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHpRINFOZ
+CODE_SMELL

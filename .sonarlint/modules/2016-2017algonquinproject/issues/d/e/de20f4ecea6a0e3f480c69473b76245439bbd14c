@@ -1,0 +1,41 @@
+
+Wsquid:S16595"%Declare "strImag" on a separate line.(ÍáãûşÿÿÿÿHŞRMINORZ
+CODE_SMELL
+Psquid:S1659:"#Declare "iImag" on a separate line.(Ú÷×ÕHßRMINORZ
+CODE_SMELL
+‚squid:S1450"URemove the "choice" field and declare it as a local variable in the relevant methods.(÷±Â‰HàRMINORZ
+CODE_SMELL
+€squid:S1450	"SRemove the "calc" field and declare it as a local variable in the relevant methods.(ö“—³HáRMINORZ
+CODE_SMELL
+l
+squid:S106";Replace this usage of System.out or System.err by a logger.(­ÕûïøÿÿÿÿHâRMAJORZ
+CODE_SMELL
+l
+squid:S106";Replace this usage of System.out or System.err by a logger.(Ö¿ÓíıÿÿÿÿHãRMAJORZ
+CODE_SMELL
+g
+squid:S106";Replace this usage of System.out or System.err by a logger.(ÈÁ¦îHäRMAJORZ
+CODE_SMELL
+g
+squid:S106*";Replace this usage of System.out or System.err by a logger.(ÏÊä¦HåRMAJORZ
+CODE_SMELL
+g
+squid:S106/";Replace this usage of System.out or System.err by a logger.(’¦ÕHæRMAJORZ
+CODE_SMELL
+l
+squid:S1064";Replace this usage of System.out or System.err by a logger.(²ìá”ıÿÿÿÿHçRMAJORZ
+CODE_SMELL
+g
+squid:S1069";Replace this usage of System.out or System.err by a logger.(ÖÀ‰—HèRMAJORZ
+CODE_SMELL
+l
+squid:S106>";Replace this usage of System.out or System.err by a logger.(ÿËÑƒıÿÿÿÿHéRMAJORZ
+CODE_SMELL
+g
+squid:S106H";Replace this usage of System.out or System.err by a logger.(“³×HêRMAJORZ
+CODE_SMELL
+ásquid:S1598"°This file "TestComplexCalculator.java" should be located in "cst8284\Calculator" directory, not in "D:\computer\workspace\2016-2017algonquinproject\src\algonquin\cst8284\lab1".(µ«ÜüHëRCRITICALZ
+CODE_SMELL
+gsquid:S1118":Add a private constructor to hide the implicit public one.(›¢×äHìRMAJORZ
+CODE_SMELL
+wsquid:S2275H"Q%n should be used in place of \n to produce the platform-specific line separator.(“³×HíRMAJORZBUG

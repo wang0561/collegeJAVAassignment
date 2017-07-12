@@ -1,0 +1,35 @@
+
+^squid:S1481å"+Remove this unused "result" local variable.(Ãë¿²şÿÿÿÿH“RMINORZ
+CODE_SMELL
+gsquid:S2696‹"6Make the enclosing method "static" or remove this set.(¢ıç³HRCRITICALZ
+CODE_SMELL
+gsquid:S2696"6Make the enclosing method "static" or remove this set.(Ûóò¯HŒRCRITICALZ
+CODE_SMELL
+lsquid:S2696ÿ"6Make the enclosing method "static" or remove this set.(©œåêıÿÿÿÿHRCRITICALZ
+CODE_SMELL
+`squid:S1698Ò"9Use the "equals" method if value comparison was intended.(½çııH‰RMAJORZBUG
+dsquid:S1135µ"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH’RINFOZ
+CODE_SMELL
+Œsquid:S1171³"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿH—RMAJORZ
+CODE_SMELL
+Lsquid:S1166‡"%Either log or rethrow this exception.(ÚÕ«€H˜RMAJORZBUG
+gsquid:S2696œ"6Make the enclosing method "static" or remove this set.(›µ©ĞH‹RCRITICALZ
+CODE_SMELL
+_squid:S1172¸",Remove this unused method parameter "stage".(š¤ıôøÿÿÿÿH–RMAJORZ
+CODE_SMELL
+]squid:S1611Ş"/Remove the parentheses around the "e" parameter(ËÓ×¼H™RMINORZ
+CODE_SMELL
+w
+squid:S128˜"LEnd this switch case with an unconditional break, return or throw statement.(‰ÆÄÎşÿÿÿÿHŠRMAJORZBUG
+dsquid:S1135‹"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHRINFOZ
+CODE_SMELL
+lsquid:S2696“"6Make the enclosing method "static" or remove this set.(¤«÷›ÿÿÿÿÿHRCRITICALZ
+CODE_SMELL
+dsquid:S1135Ÿ"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH‘RINFOZ
+CODE_SMELL
+ƒsquid:S3776²"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(®ÊàòH•RCRITICALZ
+CODE_SMELL
+àsquid:S1598"ªThis file "QuizMain.java" should be located in "cst8284\quizMaster" directory, not in "D:\computer\workspace\2016-2017algonquinproject\src\algonquin\cst8284\assignment3".(§îò‰ıÿÿÿÿH”RCRITICALZ
+CODE_SMELL
+ˆsquid:S1192ä"WDefine a constant instead of duplicating this literal "-fx-alignment: CENTER;" 5 times.(Ñ‚½×HˆRCRITICALZ
+CODE_SMELL

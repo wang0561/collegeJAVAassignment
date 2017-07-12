@@ -1,0 +1,32 @@
+
+Qsquid:S1659"$Declare "median" on a separate line.(»ïàÆH³RMINORZ
+CODE_SMELL
+Tsquid:S1659"'Declare "deviation" on a separate line.(»ïàÆH´RMINORZ
+CODE_SMELL
+Osquid:S1659""Declare "wAve" on a separate line.(»ïàÆHµRMINORZ
+CODE_SMELL
+ƒsquid:S1192u"SDefine a constant instead of duplicating this literal ".chart-series-line" 4 times.(ª¸¢“H¶RCRITICALZ
+CODE_SMELL
+Zsquid:S1068"(Remove this unused "list" private field.(‡¬ĞıÿÿÿÿH·RMAJORZ
+CODE_SMELL
+Zsquid:S1068"(Remove this unused "data" private field.(Ä‰ÍÅüÿÿÿÿH¸RMAJORZ
+CODE_SMELL
+[squid:S1068 ")Remove this unused "listV" private field.(—ÈÔÖÿÿÿÿÿH¹RMAJORZ
+CODE_SMELL
+†squid:S2293["YReplace the type specification in this constructor call with the diamond operator ("<>").(ä®‹HºRMINORZ
+CODE_SMELL
+€squid:S1450"SRemove the "mean" field and declare it as a local variable in the relevant methods.(»ïàÆH»RMINORZ
+CODE_SMELL
+‚squid:S1450"URemove the "median" field and declare it as a local variable in the relevant methods.(»ïàÆH¼RMINORZ
+CODE_SMELL
+…squid:S1450"XRemove the "deviation" field and declare it as a local variable in the relevant methods.(»ïàÆH½RMINORZ
+CODE_SMELL
+€squid:S1450"SRemove the "wAve" field and declare it as a local variable in the relevant methods.(»ïàÆH¾RMINORZ
+CODE_SMELL
+l
+squid:S106n";Replace this usage of System.out or System.err by a logger.(êÑĞÏıÿÿÿÿH¿RMAJORZ
+CODE_SMELL
+csquid:S1135&"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHÀRINFOZ
+CODE_SMELL
+dsquid:S1135˜"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHÁRINFOZ
+CODE_SMELL

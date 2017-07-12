@@ -1,0 +1,51 @@
+
+Ssquid:S1659,"!Declare "snr" on a separate line.(¼ØÔ¤ûÿÿÿÿHşRMINORZ
+CODE_SMELL
+vsquid:S1192"FDefine a constant instead of duplicating this literal "Serif" 6 times.(ù‡ßHÿRCRITICALZ
+CODE_SMELL
+†squid:S1450="YRemove the "meterchart" field and declare it as a local variable in the relevant methods.(ì©ˆäH€RMINORZ
+CODE_SMELL
+€squid:S1450B"SRemove the "plot" field and declare it as a local variable in the relevant methods.(îÖÇ•HRMINORZ
+CODE_SMELL
+squid:S1488"]Immediately return this expression instead of assigning it to the temporary variable "panel".(åÀÇıÿÿÿÿH‚RMINORZ
+CODE_SMELL
+csquid:S1135J"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿHƒRINFOZ
+CODE_SMELL
+csquid:S1135w"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH„RINFOZ
+CODE_SMELL
+dsquid:S1135‹"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH…RINFOZ
+CODE_SMELL
+dsquid:S1135Ã"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH†RINFOZ
+CODE_SMELL
+Qsquid:S1166"%Either log or rethrow this exception.(ÑşÆÒşÿÿÿÿH‡RMAJORZBUG
+Usquid:S19480",Make "controller" transient or serializable.(¾É»ÔHˆRCRITICALZBUG
+Ksquid:S2131~"Use "Double.toString" instead.(¥¼ŠÚH‰RMAJORZ
+CODE_SMELL
+Psquid:S2131"Use "Double.toString" instead.(„…™´ûÿÿÿÿHŠRMAJORZ
+CODE_SMELL
+Qsquid:S2131«"Use "Double.toString" instead.(Ç¥¨„úÿÿÿÿH‹RMAJORZ
+CODE_SMELL
+Qsquid:S2131µ"Use "Double.toString" instead.(Ç¥¨„úÿÿÿÿHŒRMAJORZ
+CODE_SMELL
+Qsquid:S2131à"Use "Double.toString" instead.(Ôˆ¦œıÿÿÿÿHRMAJORZ
+CODE_SMELL
+Qsquid:S2131ê"Use "Double.toString" instead.(Ôˆ¦œıÿÿÿÿHRMAJORZ
+CODE_SMELL
+£squid:S1158~"}Call the static method Double.toString(...) instead of instantiating a temporary object to perform this to string conversion.(¥¼ŠÚHRMINORZBUG
+¨squid:S1158"}Call the static method Double.toString(...) instead of instantiating a temporary object to perform this to string conversion.(„…™´ûÿÿÿÿHRMINORZBUG
+©squid:S1158«"}Call the static method Double.toString(...) instead of instantiating a temporary object to perform this to string conversion.(Ç¥¨„úÿÿÿÿH‘RMINORZBUG
+©squid:S1158µ"}Call the static method Double.toString(...) instead of instantiating a temporary object to perform this to string conversion.(Ç¥¨„úÿÿÿÿH’RMINORZBUG
+©squid:S1158à"}Call the static method Double.toString(...) instead of instantiating a temporary object to perform this to string conversion.(Ôˆ¦œıÿÿÿÿH“RMINORZBUG
+©squid:S1158ê"}Call the static method Double.toString(...) instead of instantiating a temporary object to perform this to string conversion.(Ôˆ¦œıÿÿÿÿH”RMINORZBUG
+Msquid:S2129~" Remove this "Double" constructor(¥¼ŠÚH•RMAJORZ
+CODE_SMELL
+Rsquid:S2129" Remove this "Double" constructor(„…™´ûÿÿÿÿH–RMAJORZ
+CODE_SMELL
+Ssquid:S2129«" Remove this "Double" constructor(Ç¥¨„úÿÿÿÿH—RMAJORZ
+CODE_SMELL
+Ssquid:S2129µ" Remove this "Double" constructor(Ç¥¨„úÿÿÿÿH˜RMAJORZ
+CODE_SMELL
+Ssquid:S2129à" Remove this "Double" constructor(Ôˆ¦œıÿÿÿÿH™RMAJORZ
+CODE_SMELL
+Ssquid:S2129ê" Remove this "Double" constructor(Ôˆ¦œıÿÿÿÿHšRMAJORZ
+CODE_SMELL

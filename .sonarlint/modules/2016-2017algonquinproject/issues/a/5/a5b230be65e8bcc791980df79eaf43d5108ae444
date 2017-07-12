@@ -1,0 +1,7 @@
+
+âsquid:S1598	"¬This file "AnswerPane.java" should be located in "cst8284\quizMaster" directory, not in "D:\computer\workspace\2016-2017algonquinproject\src\algonquin\cst8284\assignment3".(§îò‰ýÿÿÿÿHœRCRITICALZ
+CODE_SMELL
+†squid:S1450!"TRemove the "group" field and declare it as a local variable in the relevant methods.(´¸—ðûÿÿÿÿH›RMINORZ
+CODE_SMELL
+Šsquid:S1450"XRemove the "answerBox" field and declare it as a local variable in the relevant methods.(ÄÔ±‘ùÿÿÿÿHšRMINORZ
+CODE_SMELL

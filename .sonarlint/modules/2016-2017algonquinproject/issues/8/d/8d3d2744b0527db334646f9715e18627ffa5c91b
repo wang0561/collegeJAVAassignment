@@ -1,0 +1,25 @@
+
+isquid:S2583J"CChange this condition so that it does not always evaluate to "true"(ıˆæ¦H§RMAJORZBUG
+bsquid:S1141I"5Extract this nested try block into a separate method.(Ûöî¾H¨RMAJORZ
+CODE_SMELL
+lsquid:S1118 ":Add a private constructor to hide the implicit public one.(Ó™€¸ÿÿÿÿÿHªRMAJORZ
+CODE_SMELL
+“squid:S3008%"fRename this field "QuizFileAbsolutePathAndName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„ŞÀÀH¢RMINORZ
+CODE_SMELL
+Psquid:S1166Y"%Either log or rethrow this exception.(ú×Ş³ùÿÿÿÿH­RMAJORZBUG
+ásquid:S1598	"«This file "FileUtils.java" should be located in "cst8284\quizMaster" directory, not in "D:\computer\workspace\2016-2017algonquinproject\src\algonquin\cst8284\assignment3".(‰Ù¦–şÿÿÿÿH©RCRITICALZ
+CODE_SMELL
+Xsquid:S1148S"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH®RMINORZVULNERABILITY
+l
+squid:S106Z";Replace this usage of System.out or System.err by a logger.(œí¯÷ıÿÿÿÿH¦RMAJORZ
+CODE_SMELL
+f
+squid:S106R";Replace this usage of System.out or System.err by a logger.(»æH¥RMAJORZ
+CODE_SMELL
+Ksquid:S1166M"%Either log or rethrow this exception.(†ÿ¥êH«RMAJORZBUG
+‹squid:S2293B"YReplace the type specification in this constructor call with the diamond operator ("<>").(îüÊÑûÿÿÿÿH£RMINORZ
+CODE_SMELL
+squid:S1319@"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(—å·€H¤RMINORZ
+CODE_SMELL
+Ksquid:S1166Q"%Either log or rethrow this exception.(ßÈ´H¬RMAJORZBUG
+Xsquid:S1148["#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH¯RMINORZVULNERABILITY

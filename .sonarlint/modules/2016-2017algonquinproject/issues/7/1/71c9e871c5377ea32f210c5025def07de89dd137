@@ -1,0 +1,5 @@
+
+–squid:S1598"üThis file "Rectangle.java" should be located in "cst8284\shape" directory, not in "D:\computer\workspace\2016-2017algonquinproject\src\algonquin\cst8284\lab2".(ñ¥≠±HµRCRITICALZ
+CODE_SMELL
+vsquid:S1206,"PThis class overrides "equals()" and should therefore also override "hashCode()".(ç‹—„H≥RMINORZBUG
+hsquid:S12441"=Equality tests should not be made with floating point values.(ﬂ≠‘ã˙ˇˇˇˇH¥RMAJORZBUG

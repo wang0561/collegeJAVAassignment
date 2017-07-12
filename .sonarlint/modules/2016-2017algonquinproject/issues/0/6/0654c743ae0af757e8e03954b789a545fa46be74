@@ -1,0 +1,14 @@
+
+ysquid:S1192"IDefine a constant instead of duplicating this literal "teaspoon" 3 times.(œ•ÔHèRCRITICALZ
+CODE_SMELL
+rsquid:S1871)"LThis branch's code block is the same as the block for the branch on line 37.(¡«ÏHéRMINORZBUG
+squid:S1450"[Remove the "convertValue" field and declare it as a local variable in the relevant methods.(é¿£òıÿÿÿÿHêRMINORZ
+CODE_SMELL
+_squid:S1698%"9Use the "equals" method if value comparison was intended.(Î†áHëRMAJORZBUG
+_squid:S1698'"9Use the "equals" method if value comparison was intended.(ò°«üHìRMAJORZBUG
+_squid:S1698)"9Use the "equals" method if value comparison was intended.(¡«ÏHíRMAJORZBUG
+_squid:S1698."9Use the "equals" method if value comparison was intended.(·‘ÂÀHîRMAJORZBUG
+dsquid:S16981"9Use the "equals" method if value comparison was intended.(û±ëÜøÿÿÿÿHïRMAJORZBUG
+_squid:S16986"9Use the "equals" method if value comparison was intended.(Ùà»ºHğRMAJORZBUG
+Gsquid:S1220""Move this file to a named package.HñRMINORZ
+CODE_SMELL

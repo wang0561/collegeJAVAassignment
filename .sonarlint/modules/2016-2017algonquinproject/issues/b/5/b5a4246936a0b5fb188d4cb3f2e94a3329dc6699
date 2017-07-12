@@ -1,0 +1,12 @@
+
+gsquid:S2184"@Cast one of the operands of this integer division to a "double".(ö±ÅÅH€
+RMINORZBUG
+Šsquid:S1450"XRemove the "mainStage" field and declare it as a local variable in the relevant methods.(ñŒÕÚùÿÿÿÿH
+RMINORZ
+CODE_SMELL
+_squid:S1135‡"2Complete the task associated to this TODO comment.(ó‚‘²H‚
+RINFOZ
+CODE_SMELL
+psquid:S2184,"ECast one of the operands of this subtraction operation to a "double".(ÚŸ»æÿÿÿÿÿHı	RMINORZBUG
+gsquid:S2184"@Cast one of the operands of this integer division to a "double".(úÓ¦£Hÿ	RMINORZBUG
+fsquid:S2184P"@Cast one of the operands of this addition operation to a "long".(˜ÎÕ©Hş	RMINORZBUG

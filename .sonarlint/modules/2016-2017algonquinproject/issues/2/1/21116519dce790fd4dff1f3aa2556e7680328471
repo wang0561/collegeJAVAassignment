@@ -1,0 +1,38 @@
+
+ysquid:S11927"IDefine a constant instead of duplicating this literal "teaspoon" 4 times.(Û†ŞÖHúRCRITICALZ
+CODE_SMELL
+l
+squid:S106 ";Replace this usage of System.out or System.err by a logger.(®ÊªÄüÿÿÿÿHûRMAJORZ
+CODE_SMELL
+l
+squid:S106!";Replace this usage of System.out or System.err by a logger.(µáÎüÿÿÿÿHüRMAJORZ
+CODE_SMELL
+l
+squid:S106*";Replace this usage of System.out or System.err by a logger.(¨Îõ¥üÿÿÿÿHıRMAJORZ
+CODE_SMELL
+l
+squid:S106B";Replace this usage of System.out or System.err by a logger.(µáÎüÿÿÿÿHşRMAJORZ
+CODE_SMELL
+g
+squid:S106C";Replace this usage of System.out or System.err by a logger.(Ä†´ºHÿRMAJORZ
+CODE_SMELL
+g
+squid:S106E";Replace this usage of System.out or System.err by a logger.(ïû‚¨H€RMAJORZ
+CODE_SMELL
+l
+squid:S106F";Replace this usage of System.out or System.err by a logger.(©°–şÿÿÿÿHRMAJORZ
+CODE_SMELL
+g
+squid:S106G";Replace this usage of System.out or System.err by a logger.(áå²ºH‚RMAJORZ
+CODE_SMELL
+l
+squid:S106H";Replace this usage of System.out or System.err by a logger.(ù÷áøÿÿÿÿHƒRMAJORZ
+CODE_SMELL
+g
+squid:S106J";Replace this usage of System.out or System.err by a logger.(ÅÔüªH„RMAJORZ
+CODE_SMELL
+l
+squid:S106K";Replace this usage of System.out or System.err by a logger.(ò³¶ùÿÿÿÿH…RMAJORZ
+CODE_SMELL
+Gsquid:S1220""Move this file to a named package.H†RMINORZ
+CODE_SMELL

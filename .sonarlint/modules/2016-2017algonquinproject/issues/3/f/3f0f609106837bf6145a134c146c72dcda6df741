@@ -1,0 +1,12 @@
+
+esquid:S1854	":Remove this useless assignment to local variable "array2".(¦”›²øÿÿÿÿH‹RMAJORZBUG
+l
+squid:S106";Replace this usage of System.out or System.err by a logger.(´‹¹öþÿÿÿÿH‡RMAJORZ
+CODE_SMELL
+l
+squid:S106";Replace this usage of System.out or System.err by a logger.(ÄÚ¤¸üÿÿÿÿHˆRMAJORZ
+CODE_SMELL
+gsquid:S1118":Add a private constructor to hide the implicit public one.(¶ÀÅæHŠRMAJORZ
+CODE_SMELL
+ksquid:S2696"6Make the enclosing method "static" or remove this set.(Óþ­ŸÿÿÿÿÿH‰RCRITICALZ
+CODE_SMELL

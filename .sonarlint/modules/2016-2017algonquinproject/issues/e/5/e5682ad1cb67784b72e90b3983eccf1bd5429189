@@ -1,0 +1,11 @@
+
+l
+squid:S106
+";Replace this usage of System.out or System.err by a logger.(ŞÂØøÿÿÿÿHÏRMAJORZ
+CODE_SMELL
+l
+squid:S106";Replace this usage of System.out or System.err by a logger.(Ø«‡ËøÿÿÿÿHĞRMAJORZ
+CODE_SMELL
+hsquid:S12448"=Equality tests should not be made with floating point values.(œ”ê’şÿÿÿÿHÑRMAJORZBUG
+İsquid:S1598"¬This file "ComplexCalculator.java" should be located in "cst8284\Calculator" directory, not in "D:\computer\workspace\2016-2017algonquinproject\src\algonquin\cst8284\lab1".(µ«ÜüHÒRCRITICALZ
+CODE_SMELL
