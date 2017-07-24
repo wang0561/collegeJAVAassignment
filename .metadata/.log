@@ -1565,3 +1565,18 @@ java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquir
 	at com.microsoft.tfs.client.eclipse.project.ProjectRepositoryManager.start(ProjectRepositoryManager.java:179)
 	at com.microsoft.tfs.client.eclipse.TFSEclipseClientPlugin$1.run(TFSEclipseClientPlugin.java:106)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jface.text 2 0 2017-07-11 21:15:15.872
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-07-11 21:15:15.888
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-07-11 21:15:15.950
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-07-11 21:15:15.950
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.equinox.security 1 0 2017-07-11 21:16:27.231
+!MESSAGE New keyring password generated. 
