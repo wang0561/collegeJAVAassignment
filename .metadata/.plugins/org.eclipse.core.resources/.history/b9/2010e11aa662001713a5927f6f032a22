@@ -1,5 +1,0 @@
-package practise;
-
-public @interface override {
-
-}
