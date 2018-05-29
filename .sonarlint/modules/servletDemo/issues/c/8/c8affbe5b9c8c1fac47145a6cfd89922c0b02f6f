@@ -1,0 +1,18 @@
+
+Ysquid:S19896"$Add a "try/catch" block for "doGet".(®Ó‘ûÿÿÿÿÿH3RMINORZVULNERABILITY
+csquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHÏ3RINFOZ
+CODE_SMELL
+gsquid:S11614":Add the "@Override" annotation above this method signature(‹¨¯¿H•3RMAJORZ
+CODE_SMELL
+Ysquid:S19896"$Add a "try/catch" block for "doGet".(®Ó‘ûÿÿÿÿÿH3RMINORZVULNERABILITY
+csquid:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿH3RINFOZ
+CODE_SMELL
+Gsquid:S1220""Move this file to a named package.H“3RMINORZ
+CODE_SMELL
+lsquid:S1161":Add the "@Override" annotation above this method signature(Ïû©ÖûÿÿÿÿHÍ3RMAJORZ
+CODE_SMELL
+]squid:S1989""(Add a "try/catch" block for "getWriter".(ïô†úÿÿÿÿHÎ3RMINORZVULNERABILITY
+csquid:S11355"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH’3RINFOZ
+CODE_SMELL
+„squid:CommentedOutCodeLine "<This block of commented-out lines of code should be removed.(ü“ñûşÿÿÿÿ8µİı“×+HĞ3RMAJORZ
+CODE_SMELL

@@ -10,7 +10,7 @@ public class BlockingBuffer implements Buffer
 
    public BlockingBuffer()
    {
-      buffer = new ArrayBlockingQueue<Integer>(1);
+      buffer = new ArrayBlockingQueue<Integer>(20);
    }
    
    // place value into buffer

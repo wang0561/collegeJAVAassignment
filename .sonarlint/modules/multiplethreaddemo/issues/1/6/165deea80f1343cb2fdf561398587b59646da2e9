@@ -1,0 +1,27 @@
+
+l
+squid:S106_"9Replace this use of System.out or System.err by a logger.(¯«ñÎ8ñÝýµþ+H´WRMAJORZ
+CODE_SMELL
+^squid:S00108r")Either remove or fill this block of code.(ä ¹€8ñÝýµþ+H¹WRMAJORZ
+CODE_SMELL
+^squid:S00108[")Either remove or fill this block of code.(ä ¹€8ñÝýµþ+H¸WRMAJORZ
+CODE_SMELL
+ssquid:S2142r"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ñÝýµþ+H¶WRMAJORZBUG
+„squid:CommentedOutCodeLinea"<This block of commented-out lines of code should be removed.(íË¬—úÿÿÿÿ8ßÄ×¶þ+HÌWRMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ŠÝÏÅùÿÿÿÿ8Í–ñ¶þ+HÒWRMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLinev"<This block of commented-out lines of code should be removed.(íË¬—úÿÿÿÿ8ßÄ×¶þ+HÎWRMAJORZ
+CODE_SMELL
+squid:CommentedOutCodeLineX"<This block of commented-out lines of code should be removed.(©ÞÛï8ßÄ×¶þ+HÍWRMAJORZ
+CODE_SMELL
+squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ËâìÅ8Í–ñ¶þ+HÑWRMAJORZ
+CODE_SMELL
+squid:CommentedOutCodeLineo"<This block of commented-out lines of code should be removed.(©ÞÛï8ßÄ×¶þ+HËWRMAJORZ
+CODE_SMELL
+jsquid:S1135"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ8ñÝýµþ+HµWRINFOZ
+CODE_SMELL
+ssquid:S2142["FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ñÝýµþ+H·WRMAJORZBUG
+l
+squid:S106t"9Replace this use of System.out or System.err by a logger.(¬üÔÛ8ñÝýµþ+H³WRMAJORZ
+CODE_SMELL

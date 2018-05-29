@@ -1,0 +1,12 @@
+
+^squid:S00108")Either remove or fill this block of code.(ä ¹€8ÄÆÉÃû+H¾WRMAJORZ
+CODE_SMELL
+jsquid:S1135&"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8ËÉÀÃû+H¿WRINFOZ
+CODE_SMELL
+csquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHÀWRINFOZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(©ˆ‹8ËÉÀÃû+HÁWRMAJORZ
+CODE_SMELL
+ssquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ÄÆÉÃû+HÂWRMAJORZBUG
+wsquid:S2276"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(¤ù»ÿÿÿÿÿ8úÊíÃû+HÃWRBLOCKERZBUG

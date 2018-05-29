@@ -1,0 +1,35 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<!-- File: hibernate.cfg.xml
+ * Provided by: Todd Kelley (2016) Personal Communication
+ * Modified by: Stanley Pieda
+ * Modified Date: Oct 9, 2017
+ * Description: hibernate settings
+ -->
+ 
+<hibernate-configuration>
+	<session-factory>
+	
+	    <!-- See: http://docs.jboss.org/hibernate/orm/current/userguide/html_single/Hibernate_User_Guide.html#configurations-hbmddl
+	         <property name="hbm2ddl.auto">create</property>
+	         using 'update' here assumes that Demo 1 was run already, which would have created the table, here we update it 
+	    -->
+        <property name="hbm2ddl.auto">update</property>
+        	
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
+
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+
+		<property name="hibernate.connection.username">hibernate</property>
+
+		<property name="hibernate.connection.password">password</property>
+
+		<property name="hibernate.connection.url">jdbc:mysql://127.0.0.1:3306/hibernate_examples</property>
+
+		<property name="current_session_context_class">thread</property>
+
+
+	</session-factory>
+</hibernate-configuration>

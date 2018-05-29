@@ -1,0 +1,17 @@
+
+esquid:S1481"3Remove this unused "currentDisplay" local variable.(­²ÉßûÿÿÿÿHŒ4RMINORZ
+CODE_SMELL
+hsquid:S1481
+"6Remove this unused "statisticsDisplay" local variable.(ºßÌ°ûÿÿÿÿH4RMINORZ
+CODE_SMELL
+`squid:S1481"4Remove this unused "forecastDisplay" local variable.(¤äÚ?H4RMINORZ
+CODE_SMELL
+osquid:S1854"CRemove this useless assignment to local variable "forecastDisplay".(¤äÚ?H4RMAJORZ
+CODE_SMELL
+wsquid:S1854
+"ERemove this useless assignment to local variable "statisticsDisplay".(ºßÌ°ûÿÿÿÿH4RMAJORZ
+CODE_SMELL
+tsquid:S1854"BRemove this useless assignment to local variable "currentDisplay".(­²ÉßûÿÿÿÿH‘4RMAJORZ
+CODE_SMELL
+Šsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ù¾æ…üÿÿÿÿH’4RMINORZ
+CODE_SMELL

@@ -1,93 +1,98 @@
 
-ˆsquid:S1192„"RDefine a constant instead of duplicating this literal " WHERE number = ?" 3 times.(çĞ„üÿÿÿÿHÚ&RCRITICALZ
+tsquid:S1226ˆ"FIntroduce a new variable instead of reusing the parameter "updateStm".(ø±¯¸HµSRMINORZ
 CODE_SMELL
-|squid:S1192§"LDefine a constant instead of duplicating this literal "AnnualLease" 4 times.(ÊÅ–>HÛ&RCRITICALZ
+lsquid:S1161o":Add the "@Override" annotation above this method signature(¨ÓÇŠúÿÿÿÿH¶SRMAJORZ
 CODE_SMELL
-‘squid:S1192c"\Define a constant instead of duplicating this literal "Error releasing resources <" 4 times.(ó£õãøÿÿÿÿHÜ&RCRITICALZ
+“squid:S1488®"`Immediately return this expression instead of assigning it to the temporary variable "delcount".(ÆÑáÔûÿÿÿÿH·SRMINORZ
 CODE_SMELL
-Œsquid:S2293ß"YReplace the type specification in this constructor call with the diamond operator ("<>").(óş‘ùÿÿÿÿHİ&RMINORZ
+dsquid:S1163€"=Refactor this code to not throw exceptions in finally blocks.(·¿öÒH¸SRMAJORZBUG
+j
+squid:S106K"9Replace this use of System.out or System.err by a logger.(É—¯¼ÿÿÿÿÿH¹SRMAJORZ
 CODE_SMELL
-g
-squid:S106?";Replace this usage of System.out or System.err by a logger.(«‡œ§HŞ&RMAJORZ
+k
+squid:S106¼"9Replace this use of System.out or System.err by a logger.(ó£õãøÿÿÿÿHºSRMAJORZ
 CODE_SMELL
-l
-squid:S106K";Replace this usage of System.out or System.err by a logger.(É—¯¼ÿÿÿÿÿHß&RMAJORZ
+j
+squid:S106c"9Replace this use of System.out or System.err by a logger.(ó£õãøÿÿÿÿH»SRMAJORZ
 CODE_SMELL
-l
-squid:S106c";Replace this usage of System.out or System.err by a logger.(ó£õãøÿÿÿÿHà&RMAJORZ
+msquid:S1161":Add the "@Override" annotation above this method signature(Ğ¡¥ÚøÿÿÿÿH¼SRMAJORZ
 CODE_SMELL
-l
-squid:S106q";Replace this usage of System.out or System.err by a logger.(²–—ùşÿÿÿÿHá&RMAJORZ
+hsquid:S1161™":Add the "@Override" annotation above this method signature(§«€¥H½SRMAJORZ
 CODE_SMELL
-l
-squid:S106~";Replace this usage of System.out or System.err by a logger.(²–—ùşÿÿÿÿHâ&RMAJORZ
+ysquid:S1226Ø"FIntroduce a new variable instead of reusing the parameter "selectStm".(£ÖÌÿÿÿÿÿH¾SRMINORZ
 CODE_SMELL
-m
-squid:S106¼";Replace this usage of System.out or System.err by a logger.(ó£õãøÿÿÿÿHã&RMAJORZ
+msquid:S1161¹":Add the "@Override" annotation above this method signature(„™ûÊşÿÿÿÿH¿SRMAJORZ
 CODE_SMELL
-m
-squid:S106ì";Replace this usage of System.out or System.err by a logger.(ó£õãøÿÿÿÿHä&RMAJORZ
+msquid:S1161„":Add the "@Override" annotation above this method signature(ÿŞøÿÿÿÿHÀSRMAJORZ
 CODE_SMELL
-m
-squid:S106£";Replace this usage of System.out or System.err by a logger.(ó£õãøÿÿÿÿHå&RMAJORZ
+hsquid:S1161­":Add the "@Override" annotation above this method signature(­İ–àHÁSRMAJORZ
 CODE_SMELL
-“squid:S1488®"`Immediately return this expression instead of assigning it to the temporary variable "delcount".(ÆÑáÔûÿÿÿÿHæ&RMINORZ
+gsquid:S1161‘":Add the "@Override" annotation above this method signature(Š³ìNHÂSRMAJORZ
 CODE_SMELL
-ssquid:S1226R"FIntroduce a new variable instead of reusing the parameter "insertStm".(ë™£šHç&RMINORZ
+dsquid:S1163Ô"=Refactor this code to not throw exceptions in finally blocks.(·¿öÒHÃSRMAJORZBUG
+j
+squid:S106~"9Replace this use of System.out or System.err by a logger.(²–—ùşÿÿÿÿHÄSRMAJORZ
 CODE_SMELL
-psquid:S1226“"BIntroduce a new variable instead of reusing the parameter "model".(›áÁHè&RMINORZ
+|squid:S1192§"LDefine a constant instead of duplicating this literal "AnnualLease" 4 times.(ÊÅ–>HÅSRCRITICALZ
 CODE_SMELL
-tsquid:S1226™"FIntroduce a new variable instead of reusing the parameter "selectStm".(ÔŸÇùHé&RMINORZ
+Œsquid:S2293ß"YReplace the type specification in this constructor call with the diamond operator ("<>").(óş‘ùÿÿÿÿHÆSRMINORZ
 CODE_SMELL
-usquid:S1226Ÿ"BIntroduce a new variable instead of reusing the parameter "model".(åØÔïøÿÿÿÿHê&RMINORZ
+hsquid:S1161Ó":Add the "@Override" annotation above this method signature(ßéÏ·HÇSRMAJORZ
 CODE_SMELL
-ysquid:S1226Ø"FIntroduce a new variable instead of reusing the parameter "selectStm".(£ÖÌÿÿÿÿÿHë&RMINORZ
+tsquid:S1226™"FIntroduce a new variable instead of reusing the parameter "selectStm".(ÔŸÇùHÈSRMINORZ
 CODE_SMELL
-tsquid:S1226ˆ"FIntroduce a new variable instead of reusing the parameter "updateStm".(ø±¯¸Hì&RMINORZ
+hsquid:S1161â":Add the "@Override" annotation above this method signature(ñ²“¿HÉSRMAJORZ
 CODE_SMELL
-ysquid:S1226¾"FIntroduce a new variable instead of reusing the parameter "deleteStm".(Îæ¨ùÿÿÿÿHí&RMINORZ
+ssquid:S1226R"FIntroduce a new variable instead of reusing the parameter "insertStm".(ë™£šHÊSRMINORZ
 CODE_SMELL
-Psquid:S1166\"%Either log or rethrow this exception.(¤¸±³üÿÿÿÿHî&RMAJORZBUG
-Psquid:S1166b"%Either log or rethrow this exception.(±Ÿ—±ÿÿÿÿÿHï&RMAJORZBUG
-Qsquid:S1166³"%Either log or rethrow this exception.(¤¸±³üÿÿÿÿHğ&RMAJORZBUG
-Qsquid:S1166»"%Either log or rethrow this exception.(±Ÿ—±ÿÿÿÿÿHñ&RMAJORZBUG
-Qsquid:S1166ä"%Either log or rethrow this exception.(¤¸±³üÿÿÿÿHò&RMAJORZBUG
-Qsquid:S1166ë"%Either log or rethrow this exception.(±Ÿ—±ÿÿÿÿÿHó&RMAJORZBUG
-Qsquid:S1166š"%Either log or rethrow this exception.(¤¸±³üÿÿÿÿHô&RMAJORZBUG
-Qsquid:S1166¢"%Either log or rethrow this exception.(±Ÿ—±ÿÿÿÿÿHõ&RMAJORZBUG
-Qsquid:S1166Ì"%Either log or rethrow this exception.(¤¸±³üÿÿÿÿHö&RMAJORZBUG
-Qsquid:S1166Ó"%Either log or rethrow this exception.(ƒëÊ…ıÿÿÿÿH÷&RMAJORZBUG
-Qsquid:S1166÷"%Either log or rethrow this exception.(¤¸±³üÿÿÿÿHø&RMAJORZBUG
-Qsquid:S1166ÿ"%Either log or rethrow this exception.(ƒëÊ…ıÿÿÿÿHù&RMAJORZBUG
-[squid:S1143Ô"4Remove this throw statement from this finally block.(·¿öÒHú&RMAJORZBUG
-[squid:S1143€"4Remove this throw statement from this finally block.(·¿öÒHû&RMAJORZBUG
-gsquid:S1161>":Add the "@Override" annotation above this method signature(÷ì¡×Hü&RMAJORZ
+gsquid:S1161J":Add the "@Override" annotation above this method signature(ÀÔ˜¹HËSRMAJORZ
 CODE_SMELL
-gsquid:S1161J":Add the "@Override" annotation above this method signature(ÀÔ˜¹Hı&RMAJORZ
+gsquid:S1161>":Add the "@Override" annotation above this method signature(÷ì¡×HÌSRMAJORZ
 CODE_SMELL
-lsquid:S1161o":Add the "@Override" annotation above this method signature(¨ÓÇŠúÿÿÿÿHş&RMAJORZ
+e
+squid:S106?"9Replace this use of System.out or System.err by a logger.(«‡œ§HÍSRMAJORZ
 CODE_SMELL
-gsquid:S1161|":Add the "@Override" annotation above this method signature(¿Ä¯õHÿ&RMAJORZ
+psquid:S1226“"BIntroduce a new variable instead of reusing the parameter "model".(›áÁHÎSRMINORZ
 CODE_SMELL
-gsquid:S1161‘":Add the "@Override" annotation above this method signature(Š³ìNH€'RMAJORZ
+j
+squid:S106q"9Replace this use of System.out or System.err by a logger.(²–—ùşÿÿÿÿHÏSRMAJORZ
 CODE_SMELL
-msquid:S1161É":Add the "@Override" annotation above this method signature(ûö«øÿÿÿÿH'RMAJORZ
+[squid:S1143€"4Remove this throw statement from this finally block.(·¿öÒHĞSRMAJORZBUG
+k
+squid:S106£"9Replace this use of System.out or System.err by a logger.(ó£õãøÿÿÿÿHÑSRMAJORZ
 CODE_SMELL
-hsquid:S1161Ó":Add the "@Override" annotation above this method signature(ßéÏ·H‚'RMAJORZ
+usquid:S1226Ÿ"BIntroduce a new variable instead of reusing the parameter "model".(åØÔïøÿÿÿÿHÒSRMINORZ
 CODE_SMELL
-hsquid:S1161ù":Add the "@Override" annotation above this method signature(À“­Hƒ'RMAJORZ
+k
+squid:S106ì"9Replace this use of System.out or System.err by a logger.(ó£õãøÿÿÿÿHÓSRMAJORZ
 CODE_SMELL
-msquid:S1161„":Add the "@Override" annotation above this method signature(ÿŞøÿÿÿÿH„'RMAJORZ
+‘squid:S1192c"\Define a constant instead of duplicating this literal "Error releasing resources <" 4 times.(ó£õãøÿÿÿÿHÔSRCRITICALZ
 CODE_SMELL
-hsquid:S1161­":Add the "@Override" annotation above this method signature(­İ–àH…'RMAJORZ
+ysquid:S1226¾"FIntroduce a new variable instead of reusing the parameter "deleteStm".(Îæ¨ùÿÿÿÿHÕSRMINORZ
 CODE_SMELL
-msquid:S1161¹":Add the "@Override" annotation above this method signature(„™ûÊşÿÿÿÿH†'RMAJORZ
+[squid:S1143Ô"4Remove this throw statement from this finally block.(·¿öÒHÖSRMAJORZBUG
+msquid:S1161É":Add the "@Override" annotation above this method signature(ûö«øÿÿÿÿH×SRMAJORZ
 CODE_SMELL
-hsquid:S1161â":Add the "@Override" annotation above this method signature(ñ²“¿H‡'RMAJORZ
+hsquid:S1161ù":Add the "@Override" annotation above this method signature(À“­HØSRMAJORZ
 CODE_SMELL
-msquid:S1161":Add the "@Override" annotation above this method signature(Ğ¡¥ÚøÿÿÿÿHˆ'RMAJORZ
+ˆsquid:S1192„"RDefine a constant instead of duplicating this literal " WHERE number = ?" 3 times.(çĞ„üÿÿÿÿHÙSRCRITICALZ
 CODE_SMELL
-hsquid:S1161™":Add the "@Override" annotation above this method signature(§«€¥H‰'RMAJORZ
+gsquid:S1161|":Add the "@Override" annotation above this method signature(¿Ä¯õHÚSRMAJORZ
 CODE_SMELL
-dsquid:S1163Ô"=Refactor this code to not throw exceptions in finally blocks.(·¿öÒHŠ'RMAJORZBUG
-dsquid:S1163€"=Refactor this code to not throw exceptions in finally blocks.(·¿öÒH‹'RMAJORZBUG
+squid:ModifiersOrderCheckŸ"EReorder the modifiers to comply with the Java Language Specification.(ãëè´şÿÿÿÿ8îÖ´Ÿû+HÛSRMINORZ
+CODE_SMELL
+squid:ModifiersOrderCheck¦"EReorder the modifiers to comply with the Java Language Specification.(ŞŸè¥ûÿÿÿÿ8îÖ´Ÿû+HÜSRMINORZ
+CODE_SMELL
+ˆsquid:ModifiersOrderCheckª"EReorder the modifiers to comply with the Java Language Specification.(Õ—¾À8îÖ´Ÿû+HİSRMINORZ
+CODE_SMELL
+squid:ModifiersOrderCheck®"EReorder the modifiers to comply with the Java Language Specification.(á™†°ÿÿÿÿÿ8îÖ´Ÿû+HŞSRMINORZ
+CODE_SMELL
+ˆsquid:ModifiersOrderCheck´"EReorder the modifiers to comply with the Java Language Specification.(»Èªİ8îÖ´Ÿû+HßSRMINORZ
+CODE_SMELL
+Jsquid:S2757Ø"Was "+=" meant instead?(ç´‡œüÿÿÿÿ8îÖ´Ÿû+HàSRMAJORZBUG
+…squid:CommentedOutCodeLine­"<This block of commented-out lines of code should be removed.(¼è÷ïøÿÿÿÿ8îÖ´Ÿû+HáSRMAJORZ
+CODE_SMELL
+rsquid:UselessImportCheck",Remove this unused import 'sql.CoreDAOImpl'.(€™„ÿÿÿÿÿÿ8îÖ´Ÿû+HâSRMINORZ
+CODE_SMELL
+qsquid:UselessImportCheck"0Remove this unused import 'sql.CreateException'.(åıß•8îÖ´Ÿû+HãSRMINORZ
+CODE_SMELL

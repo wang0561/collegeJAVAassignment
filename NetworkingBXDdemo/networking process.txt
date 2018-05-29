@@ -1,0 +1,76 @@
+通讯三要素：
+1.找到对方IP或者主机名字。（address，hostname）
+2.数据要发送到对方指定的应用程序上。为了标识这些应用程序， 所以给这些网络程序都用数字进行标识
+为了方便称呼这个数字叫做端口（port）。逻辑端口
+3.定义通信规则。这个同学规则成为协议protocol。比如魔兽世界通讯需要特定的协议。
+
+IP 地址： InetAddress 對象
+1. iPv4有四个字节bytes,1-255 
+2. 127.0.0.1 本地回环地址，如果本机没有分配IP地址，那么默认就是这个地址。localhost
+3.局域网地址可以随便改，1.1.1.1 和 1.1.1.2 在同一局域网中
+4.ipv4 和 ipv6
+
+端口：
+1.一般0-1024都已被系统保留
+2.1025-65535 端口可以被监听用来程序通信。
+
+传输协议：
+1.通讯规则
+2.http，ftp, udp ,tcp, etc..
+
+具体通讯方式：
+1.网络模型
+-OSI参考模型：
+七层：HOST1应用层application(QQ)->封装数据->表示层presentation->封装->...->传输层TCP/UDP
+->IP层ip协议->物理层，网线，WiFi..-> package -> host2 底层->拆包->.....>host2应用层->
+找端口，比如QQ
+
+
+-TCP/IP参考模型
+应用层-》传输层-》网络层-》主机至网络层。
+
+Java networking在传输层和网络层混， Java web 在应用层混。udp, tcp 都是在IP协议上开发的。
+
+UDP特點：
+1.面向無連接。將數據封裝成packet，每個數據包最大64KB
+2.無連接所以是非reliable
+3.不需建立鏈接，無所謂數據丟失與否，速度快，比如電視直播，比如郵寄東西
+
+TCP特點：
+1.必須面向鏈接， 對方必須在線。通過三次握手機制。
+2.在連續中進行大數據量傳輸，速度慢
+
+socket編程
+1.網絡通訊其實就是socket間的通訊
+2.數據通過兩個socket間通過IO傳輸
+3.每個應用程序都有相應的socket對象
+
+Java UDP 的socket傳輸：
+1.DatagramSocket class, DatagramPacket class
+2建立socket服务，封装数据到packet
+3.send packet and receive packet
+4.socket.send(packet), socket.receive(packet), packet可以得到
+发送端的port，地址，已经数据data。
+
+TCP传输
+1.建立在通道上，不同于UDP 建立在packet上
+2.客户端socket class， 服务端ServerSocket
+3.客户端在建立socket服务时，就要有服务端存在并连接成功。
+步骤：-创建socket服务，并制定链接主机和端口。
+    -获取stream对象，进行操作
+
+client & server
+客户端 
+1.client建立socket服务， 指定主机和端口，获取socket的输出流将数据写入流中
+2.获取socket输入流，将服务端反馈的数据获取到并打印到输出台
+3.关闭客户端资源
+
+
+
+
+
+
+
+
+
+

@@ -1,23 +1,25 @@
 
-csquid:S1135W"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHºRINFOZ
+Xsquid:S1148J"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHúORMINORZVULNERABILITY
+csquid:S1135W"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHûORINFOZ
 CODE_SMELL
-[squid:S3655?"5Call "result.isPresent()" before accessing the value.(’ËùºH¾RMAJORZBUG
-_squid:S16987"9Use the "equals" method if value comparison was intended.(½çııH¶RMAJORZBUG
-Xsquid:S1148J"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÂRMINORZVULNERABILITY
-Nsquid:S1170'"!Make this final field static too.(÷“ŒÃH¿RMINORZ
+^squid:S1481›"+Remove this unused "result" local variable.(Ãë¿²şÿÿÿÿHıORMINORZ
 CODE_SMELL
-^squid:S1481›"+Remove this unused "result" local variable.(Ãë¿²şÿÿÿÿH¼RMINORZ
+‹squid:S00116'"VRename this field "MAX_QA_SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷“ŒÃ8•„…ì+H€PRMINORZ
 CODE_SMELL
-csquid:S1135I"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH¹RINFOZ
+Nsquid:S1170'"!Make this final field static too.(÷“ŒÃH‚PRMINORZ
 CODE_SMELL
-csquid:S1135p"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH»RINFOZ
+csquid:S1135p"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH„PRINFOZ
 CODE_SMELL
-]squid:S1611•"/Remove the parentheses around the "e" parameter(ËÓ×¼HÁRMINORZ
+csquid:S1135I"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH†PRINFOZ
 CODE_SMELL
-lsquid:S2696¨"6Make the enclosing method "static" or remove this set.(©œåêıÿÿÿÿH·RCRITICALZ
+†squid:S00116&"QRename this field "QAList" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÛÆ¤Ä8•„…ì+HˆPRMINORZ
 CODE_SMELL
-àsquid:S1598"ªThis file "QuizMain.java" should be located in "cst8284\quizMaster" directory, not in "D:\computer\workspace\2016-2017algonquinproject\src\algonquin\cst8284\assignment1".(‰Ù¦–şÿÿÿÿH½RCRITICALZ
+]squid:S1611•"/Remove the parentheses around the "e" parameter(ËÓ×¼HŠPRMINORZ
 CODE_SMELL
-Ksquid:S1166H"%Either log or rethrow this exception.(¼•§œHÀRMAJORZBUG
-lsquid:S2696®"6Make the enclosing method "static" or remove this set.(¤«÷›ÿÿÿÿÿH¸RCRITICALZ
+[squid:S3655?"5Call "result.isPresent()" before accessing the value.(’ËùºH‹PRMAJORZBUG
+‹squid:S00117P"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼Ÿµûÿÿÿÿ8•„…ì+HPRMINORZ
+CODE_SMELL
+gsquid:S2696®"6Make the enclosing method "static" or remove this set.(öãÁãHPRCRITICALZ
+CODE_SMELL
+gsquid:S2696¨"6Make the enclosing method "static" or remove this set.(³ÀŸ™HPRCRITICALZ
 CODE_SMELL

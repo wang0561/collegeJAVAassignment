@@ -11,3 +11,5 @@ H
 src/marina/LeaseDAO.java,e\a\ea0eb03183d655ebe626489b85c9f1d6b6d14129
 P
  src/connection/package-info.java,8\c\8cd0c4e5287121d07c89aeede9e7562ac7421ece
+D
+src/sql/CoreDAO.java,4\5\45b5fcf3a9aff0a334c3bc85bbaca419efe6681e

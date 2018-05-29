@@ -1,0 +1,26 @@
+
+squid:S1450"[Remove the "listOfMyData" field and declare it as a local variable in the relevant methods.(µ·³8˜öµŠì+HùORMINORZ
+CODE_SMELL
+k
+squid:S106J"9Replace this use of System.out or System.err by a logger.(¯­8„È»‹ì+HüORMAJORZ
+CODE_SMELL
+jsquid:S1135!"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8£ä²ƒì+HşORINFOZ
+CODE_SMELL
+‹squid:S001177"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ãê¤áÿÿÿÿÿ8˜öµŠì+HÿORMINORZ
+CODE_SMELL
+Gsquid:S1220""Move this file to a named package.HPRMINORZ
+CODE_SMELL
+l
+squid:S106]"9Replace this use of System.out or System.err by a logger.(ø˜ÍÁ8˜öµŠì+HƒPRMAJORZ
+CODE_SMELL
+q
+squid:S106D"9Replace this use of System.out or System.err by a logger.(æ„îèıÿÿÿÿ8ãÍÔ…ì+H…PRMAJORZ
+CODE_SMELL
+l
+squid:S106_"9Replace this use of System.out or System.err by a logger.(–à«ì8Ôô÷‹ì+H‡PRMAJORZ
+CODE_SMELL
+q
+squid:S106%"9Replace this use of System.out or System.err by a logger.(±èÏ¶ıÿÿÿÿ8ÕèÑ…ì+H‰PRMAJORZ
+CODE_SMELL
+csquid:S1135"2Complete the task associated to this TODO comment.(µáÎüÿÿÿÿHŒPRINFOZ
+CODE_SMELL

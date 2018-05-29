@@ -1,0 +1,56 @@
+
+Üsquid:S2293#"YReplace the type specification in this constructor call with the diamond operator ("<>").(Á·Ã¢Hß6RMINORZ
+CODE_SMELL
+ásquid:S2293ù"YReplace the type specification in this constructor call with the diamond operator ("<>").(¬§ãŸH®6RMINORZ
+CODE_SMELL
+[squid:S2095<".Close this "Connection" in a "finally" clause.(Ëâ±È˚ˇˇˇˇH©6RBLOCKERZBUG
+bsquid:S2095y"5Close this "PreparedStatement" in a "finally" clause.(èÄÀ√˘ˇˇˇˇH™6RBLOCKERZBUG
+\squid:S2095ü".Close this "Connection" in a "finally" clause.(Ëâ±È˚ˇˇˇˇH´6RBLOCKERZBUG
+bsquid:S2095J"5Close this "PreparedStatement" in a "finally" clause.(ˇçÄ¥˙ˇˇˇˇH¨6RBLOCKERZBUG
+csquid:S2095ë"5Close this "PreparedStatement" in a "finally" clause.(èÄÀ√˘ˇˇˇˇH≠6RBLOCKERZBUG
+bsquid:S2095n"5Close this "PreparedStatement" in a "finally" clause.(ø’Ã˙˛ˇˇˇˇHÆ6RBLOCKERZBUG
+[squid:S2095".Close this "Connection" in a "finally" clause.(Ëâ±È˚ˇˇˇˇHØ6RBLOCKERZBUG
+]squid:S2095="5Close this "PreparedStatement" in a "finally" clause.( ﬂ⁄œH∞6RBLOCKERZBUG
+[squid:S2095Y".Close this "Connection" in a "finally" clause.(Ëâ±È˚ˇˇˇˇH±6RBLOCKERZBUG
+[squid:S2095%".Close this "Connection" in a "finally" clause.(Ëâ±È˚ˇˇˇˇH≤6RBLOCKERZBUG
+csquid:S2095†"5Close this "PreparedStatement" in a "finally" clause.(ó∏∏Ì˛ˇˇˇˇH≥6RBLOCKERZBUG
+[squid:S2095I".Close this "Connection" in a "finally" clause.(Ëâ±È˚ˇˇˇˇH¥6RBLOCKERZBUG
+[squid:S2095m".Close this "Connection" in a "finally" clause.(Ëâ±È˚ˇˇˇˇHµ6RBLOCKERZBUG
+]squid:S2095"5Close this "PreparedStatement" in a "finally" clause.(ÍñÜêH∂6RBLOCKERZBUG
+\squid:S2095Z"5Close this "PreparedStatement" in a "finally" clause.(¿≈∫*H∑6RBLOCKERZBUG
+^squid:S2095ã"5Close this "PreparedStatement" in a "finally" clause.(∆≈ß≤H∏6RBLOCKERZBUG
+bsquid:S2095&"5Close this "PreparedStatement" in a "finally" clause.(ÌÔ—°˘ˇˇˇˇHπ6RBLOCKERZBUG
+\squid:S2095ä".Close this "Connection" in a "finally" clause.(Ëâ±È˚ˇˇˇˇH∫6RBLOCKERZBUG
+xsquid:CommentedOutCodeLine≤"<This block of commented-out lines of code should be removed.(áÚ¿Hª6RMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(∞ø¶ÏHº6RMAJORZ
+CODE_SMELL
+e
+squid:S1065"9Replace this use of System.out or System.err by a logger.(∞ø¶ÏHΩ6RMAJORZ
+CODE_SMELL
+e
+squid:S106B"9Replace this use of System.out or System.err by a logger.(∞ø¶ÏHæ6RMAJORZ
+CODE_SMELL
+e
+squid:S106R"9Replace this use of System.out or System.err by a logger.(∞ø¶ÏHø6RMAJORZ
+CODE_SMELL
+e
+squid:S106b"9Replace this use of System.out or System.err by a logger.(∞ø¶ÏH¿6RMAJORZ
+CODE_SMELL
+j
+squid:S106i"9Replace this use of System.out or System.err by a logger.(ÁÕµ€˚ˇˇˇˇH¡6RMAJORZ
+CODE_SMELL
+f
+squid:S106Ä"9Replace this use of System.out or System.err by a logger.(∞ø¶ÏH¬6RMAJORZ
+CODE_SMELL
+f
+squid:S106ò"9Replace this use of System.out or System.err by a logger.(∞ø¶ÏH√6RMAJORZ
+CODE_SMELL
+f
+squid:S106Æ"9Replace this use of System.out or System.err by a logger.(∞ø¶ÏHƒ6RMAJORZ
+CODE_SMELL
+gsquid:S1118":Add a private constructor to hide the implicit public one.(Èí∞ëH≈6RMAJORZ
+CODE_SMELL
+msquid:UselessImportCheck"3Remove this unused import 'java.sql.DriverManager'.(ìê£∞H∆6RMINORZ
+CODE_SMELL

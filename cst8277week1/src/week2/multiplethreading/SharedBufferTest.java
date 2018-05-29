@@ -16,10 +16,10 @@ public class SharedBufferTest
      // Buffer sharedLocation = new UnsynchronizedBuffer(); 
       
       // uses ArrayBlockingQueue, which handles synchronization
-      //Buffer sharedLocation = new BlockingBuffer();
+      Buffer sharedLocation = new BlockingBuffer();
       
       // uses synchronized, wait, notifyAll to manually handle synchronization
-     Buffer sharedLocation = new SynchronizedBuffer();
+    // Buffer sharedLocation = new SynchronizedBuffer();
       
       // uses an Array (circular buffer) to handle multiple values
       //Buffer sharedLocation = new CircularBuffer();
@@ -33,13 +33,13 @@ public class SharedBufferTest
       // execute the Producer and Consumer, giving each 
       // access to the sharedLocation
       executorService.execute(new Producer(sharedLocation));
-      executorService.execute(new Producer(sharedLocation));
+     // executorService.execute(new Producer(sharedLocation));
 
-      executorService.execute(new Producer(sharedLocation));
+     // executorService.execute(new Producer(sharedLocation));
 
       executorService.execute(new Consumer(sharedLocation));
-      executorService.execute(new Consumer(sharedLocation));
-      executorService.execute(new Consumer(sharedLocation));
+    //  executorService.execute(new Consumer(sharedLocation));
+     // executorService.execute(new Consumer(sharedLocation));
 
       executorService.shutdown(); // terminate app when tasks complete
       executorService.awaitTermination(1, TimeUnit.MINUTES); 

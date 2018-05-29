@@ -1,0 +1,13 @@
+
+csquid:S1135	"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHÕTRINFOZ
+CODE_SMELL
+gsquid:S1854"5Remove this useless assignment to local variable "n".(íœğ¤üÿÿÿÿHÖTRMAJORZ
+CODE_SMELL
+y$squid:AssignmentInSubExpressionCheck".Extract the assignment out of this expression.(íœğ¤üÿÿÿÿH×TRMAJORZ
+CODE_SMELL
+e
+squid:S106!"9Replace this use of System.out or System.err by a logger.(ñ‚‰HØTRMAJORZ
+CODE_SMELL
+d
+squid:S106"9Replace this use of System.out or System.err by a logger.(ƒÚáBHÙTRMAJORZ
+CODE_SMELL

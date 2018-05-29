@@ -1,0 +1,20 @@
+
+csquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHWRINFOZ
+CODE_SMELL
+]squid:S2446X"0"notify" may not wake up the appropriate thread.(­ÀôÉ8ıù†·ı+H‚WRMAJORZBUG
+ssquid:S2142T"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ıù†·ı+HƒWRMAJORZBUG
+]squid:S2446L"0"notify" may not wake up the appropriate thread.(­ÀôÉ8ıù†·ı+H„WRMAJORZBUG
+ssquid:S2142G"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ıù†·ı+H…WRMAJORZBUG
+qsquid:S2274S":Remove this call to "wait" or move it into a "while" loop.(Šä8ıù†·ı+H†WRCRITICALZ
+CODE_SMELL
+l
+squid:S106V"9Replace this use of System.out or System.err by a logger.(“ãì8ıù†·ı+H‡WRMAJORZ
+CODE_SMELL
+Vsquid:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8ıù†·ı+HˆWRBLOCKERZBUG
+Vsquid:S21892""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8ıù†·ı+H‰WRBLOCKERZBUG
+^squid:S00108T")Either remove or fill this block of code.(ä ¹€8ıù†·ı+HŠWRMAJORZ
+CODE_SMELL
+^squid:S00108G")Either remove or fill this block of code.(ä ¹€8ıù†·ı+H‹WRMAJORZ
+CODE_SMELL
+qsquid:S2274F":Remove this call to "wait" or move it into a "while" loop.(Šä8ıù†·ı+HŒWRCRITICALZ
+CODE_SMELL

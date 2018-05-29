@@ -1,0 +1,13 @@
+
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(æ¨¤šøÿÿÿÿ8ñµ÷™ß+HÎARMAJORZ
+CODE_SMELL
+nsquid:S1854"5Remove this useless assignment to local variable "a".(¥æ¦ùüÿÿÿÿ8ñµ÷™ß+HÏARMAJORZ
+CODE_SMELL
+jsquid:S1135"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ8æ€‚°Ú+HÈARINFOZ
+CODE_SMELL
+jsquid:S1135"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ8æ€‚°Ú+HÉARINFOZ
+CODE_SMELL
+jsquid:S1135"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ8æ€‚°Ú+HÊARINFOZ
+CODE_SMELL
+Vsquid:S2201"*The return value of "concat" must be used.(ñÒ¸&8­Åù™ß+HÕARMAJORZBUG

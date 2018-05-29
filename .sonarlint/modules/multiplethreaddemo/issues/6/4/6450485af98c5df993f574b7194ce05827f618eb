@@ -1,0 +1,14 @@
+
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(¥Œ«ûûÿÿÿÿ8¼â‡·ş+HÕWRMAJORZ
+CODE_SMELL
+hsquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õşÿÿÿÿ8¼â‡·ş+HÔWRMINORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(½ßÃê8¼â‡·ş+HÖWRMAJORZ
+CODE_SMELL
+q
+squid:S106
+"9Replace this use of System.out or System.err by a logger.(«ç¤Âÿÿÿÿÿ8¨˜…·ş+HÓWRMAJORZ
+CODE_SMELL
+msquid:S2168"9Remove this dangerous instance of double-checked locking.(•üŠ£úÿÿÿÿ8ÕÑ·ş+HÙWRBLOCKERZBUG

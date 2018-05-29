@@ -1,0 +1,8 @@
+
+asquid:S1068"/Remove this unused "weatherData" private field.(Ü‰êŒùÿÿÿÿH…4RMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(ºòð‚H†4RMAJORZ
+CODE_SMELL
+Šsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ù¾æ…üÿÿÿÿH‡4RMINORZ
+CODE_SMELL

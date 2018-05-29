@@ -37,6 +37,7 @@ class ProducerF implements Runnable {
 
 		int i = 100000;
 		while (i-- > 0) {
+			
 			r.put("Computer...");
 		}
 	}
@@ -50,7 +51,13 @@ class ConsumerF implements Runnable {
 	}
 
 	public void run() {
-		int i = 100000;
+		int i = 1000;
+//		try {
+//			Thread.sleep(500);
+//		} catch (InterruptedException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
 		while (i-- > 0) {
 			r.take();
 		}
@@ -64,7 +71,7 @@ class ResourceF {
 	private final Lock lock = new ReentrantLock();
 	private final Condition proCondition = lock.newCondition();
 	private final Condition conCondition = lock.newCondition();
-	private String[] computers = new String[100000];
+	private String[] computers = new String[10];
 	private int putptr, takeptr, count;
 
 	public void put(String computer) {
@@ -82,8 +89,10 @@ class ResourceF {
 			if (++putptr == computers.length)
 				putptr = 0;
 			++count;
+			if(id%100==0)
+				System.out.println(Thread.currentThread().getName() + " produced " + this.computer);
 			id++;
-			System.out.println(Thread.currentThread().getName() + " produced " + this.computer);
+			
 			conCondition.signal();
 		} finally {
 			lock.unlock();
@@ -102,6 +111,7 @@ class ResourceF {
 				} catch (InterruptedException e) {
 				}
 			computer= computers[takeptr];
+			if(id%100 == 0)
 			System.out.println(Thread.currentThread().getName() + " consumer ......." + computer);
 			if (++takeptr == computers.length)
 				takeptr = 0;

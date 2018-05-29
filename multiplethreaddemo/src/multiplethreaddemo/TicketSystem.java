@@ -6,16 +6,13 @@ import java.util.concurrent.Executors;
 public class TicketSystem {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-//		ThreadDemo td = new ThreadDemo();
-//
-//		for (int i=0;i<3;i++){
-//			new Thread(td).start();
-//		}
-//       System.gc();
+
 		ExecutorService executor = Executors.newCachedThreadPool();
-		for(int i =0;i<3;i++)
+		for(int i =0;i<3;i++) {
 			executor.execute(new ThreadDemo());
+		    executor.execute(getR());
+		
+		}
 	}
     static Runnable getR(){
     	return new Runnable(){
@@ -32,7 +29,8 @@ class ThreadDemo implements Runnable {
 	
 		// TODO Auto-generated method stub
 		while (num>0)
-		{/*while and synchronized cannot be converted because when num=0, Thread-3 ticket number1
+		{/*while and synchronized cannot be converted 
+		because when num=0, Thread-3 ticket number1
 			Thread-2 ticket number0
 			Thread-1 ticket number-1
 			Thread-0 ticket number-2*/

@@ -1,108 +1,137 @@
 
-Lsquid:S1166"%Either log or rethrow this exception.(”ı¾HúRMAJORZBUG
-]squid:S1066²"/Merge this if statement with the enclosing one.(ï£ÆêHØRMAJORZ
+squid:CommentedOutCodeLineƒ"<This block of commented-out lines of code should be removed.(‘¬¨t8‚×Š÷Ó+H®PRMAJORZ
 CODE_SMELL
-[squid:S1604…"(Make this anonymous inner class a lambda( ¸ñïùÿÿÿÿH‡ RMAJORZ
+nsquid:S2184ı"BCast one of the operands of this division operation to a "double".(ÜËç‡ıÿÿÿÿH¯PRMINORZBUG
+dsquid:S1854Š"8Remove this useless assignment to local variable "mean".(ÍÇ£ÿÿÿÿÿH°PRMAJORZBUG
+]squid:S1172a"+Remove this unused method parameter "list".(¨²ÄƒûÿÿÿÿH±PRMAJORZ
 CODE_SMELL
-]squid:S1066š"/Merge this if statement with the enclosing one.(ï£ÆêHÜRMAJORZ
+csquid:S1135x"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH²PRINFOZ
 CODE_SMELL
-tsquid:S2184‹"HCast one of the operands of this multiplication operation to a "double".(¤¶Å”şÿÿÿÿHĞRMINORZBUG
-°squid:S1192©"Define a constant instead of duplicating this literal "-fx-font: 30px Tahoma; -fx-stroke: black; -fx-stroke-width: 1;" 7 times.(«¢ö’HÕRCRITICALZ
+]squid:S1066ˆ"/Merge this if statement with the enclosing one.(ï£ÆêH³PRMAJORZ
 CODE_SMELL
-‚squid:S1192­"QDefine a constant instead of duplicating this literal "-fx-font-size:20" 7 times.(ºó“¸HÖRCRITICALZ
+…squid:CommentedOutCodeLineÆ"<This block of commented-out lines of code should be removed.(¾´Çƒüÿÿÿÿ8‚×Š÷Ó+H´PRMAJORZ
+CODE_SMELL
+‰squid:S00100ğ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡Ü—¶ùÿÿÿÿ8‚×Š÷Ó+HµPRMINORZ
+CODE_SMELL
+‰squid:S00100“"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İƒàµøÿÿÿÿ8‚×Š÷Ó+H¶PRMINORZ
+CODE_SMELL
+†
+squid:S135¤"YReduce the total number of break and continue statements in this loop to use at most one.(ŞÙ»H·PRMINORZ
+CODE_SMELL
+dsquid:S1135ç"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH¸PRINFOZ
+CODE_SMELL
+[squid:S1604"(Make this anonymous inner class a lambda(†÷áüÿÿÿÿH¹PRMAJORZ
+CODE_SMELL
+‚squid:S1192­"QDefine a constant instead of duplicating this literal "-fx-font-size:20" 7 times.(ºó“¸HºPRCRITICALZ
+CODE_SMELL
+€squid:CommentedOutCodeLineˆ"<This block of commented-out lines of code should be removed.(î‰˜8‚×Š÷Ó+H»PRMAJORZ
+CODE_SMELL
+squid:S1192ô"WDefine a constant instead of duplicating this literal "-fx-alignment: CENTER;" 4 times.(æ¢¢ñıÿÿÿÿH¼PRCRITICALZ
+CODE_SMELL
+]squid:S1066Ğ"/Merge this if statement with the enclosing one.(ï£ÆêH½PRMAJORZ
+CODE_SMELL
+Œsquid:S2293Ò"YReplace the type specification in this constructor call with the diamond operator ("<>").(À“¤’øÿÿÿÿH¾PRMINORZ
+CODE_SMELL
+]squid:S1066Í"/Merge this if statement with the enclosing one.(ï£ÆêH¿PRMAJORZ
+CODE_SMELL
+‰squid:S00116«"SRename this field "PostCode" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨àÚğ8‚×Š÷Ó+HÀPRMINORZ
 CODE_SMELL
 ‹
-squid:S135ì"YReduce the total number of break and continue statements in this loop to use at most one.(ò“âÉûÿÿÿÿHäRMINORZ
+squid:S135ì"YReduce the total number of break and continue statements in this loop to use at most one.(ò“âÉûÿÿÿÿHÁPRMINORZ
 CODE_SMELL
-nsquid:S2184ş"BCast one of the operands of this division operation to a "double".(÷Èæ•úÿÿÿÿHÓRMINORZBUG
-hsquid:S1141´"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿHìRMAJORZ
+‰squid:S00100ƒ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş¤ÁÄøÿÿÿÿ8‚×Š÷Ó+HÂPRMINORZ
 CODE_SMELL
-[squid:S1604Ì"(Make this anonymous inner class a lambda(†÷áüÿÿÿÿH… RMAJORZ
+nsquid:S2184ü"BCast one of the operands of this division operation to a "double".(ã—¼ÉşÿÿÿÿHÃPRMINORZBUG
+nsquid:S2184ş"BCast one of the operands of this division operation to a "double".(÷Èæ•úÿÿÿÿHÄPRMINORZBUG
+qsquid:S2589Ä"7Remove this expression which always evaluates to "true"(ğ¯ìÏıÿÿÿÿ8‚×Š÷Ó+HÅPRMAJORZ
 CODE_SMELL
-squid:S1192ô"WDefine a constant instead of duplicating this literal "-fx-alignment: CENTER;" 4 times.(æ¢¢ñıÿÿÿÿHÔRCRITICALZ
+…squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ğĞíıÿÿÿÿ8‚×Š÷Ó+HÆPRMAJORZ
 CODE_SMELL
-ˆsquid:S3776Ò"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(º©ï¸şÿÿÿÿHøRCRITICALZ
+‡squid:S2293€"YReplace the type specification in this constructor call with the diamond operator ("<>").(†Ö·ÚHÇPRMINORZ
 CODE_SMELL
-]squid:S1066‰"/Merge this if statement with the enclosing one.(ï£ÆêHàRMAJORZ
+squid:CommentedOutCodeLineZ"<This block of commented-out lines of code should be removed.(Š²Øİ8‚×Š÷Ó+HÈPRMAJORZ
 CODE_SMELL
-]squid:S1066…"/Merge this if statement with the enclosing one.(ï£ÆêHÛRMAJORZ
+[squid:S1604…"(Make this anonymous inner class a lambda( ¸ñïùÿÿÿÿHÉPRMAJORZ
 CODE_SMELL
-nsquid:S2184ı"BCast one of the operands of this division operation to a "double".(ÜËç‡ıÿÿÿÿHÒRMINORZBUG
-Lsquid:S1166•"%Either log or rethrow this exception.(°òÒ¬HûRMAJORZBUG
-[squid:S1604®"(Make this anonymous inner class a lambda(†÷áüÿÿÿÿHÿRMAJORZ
+]squid:S1066˜"/Merge this if statement with the enclosing one.(ï£ÆêHÊPRMAJORZ
 CODE_SMELL
-m
-squid:S106Ç";Replace this usage of System.out or System.err by a logger.(¡Æó™şÿÿÿÿHçRMAJORZ
+[squid:S1604®"(Make this anonymous inner class a lambda(†÷áüÿÿÿÿHËPRMAJORZ
 CODE_SMELL
-h
-squid:S106";Replace this usage of System.out or System.err by a logger.(‡©öêHæRMAJORZ
+[squid:S1604Ì"(Make this anonymous inner class a lambda(†÷áüÿÿÿÿHÌPRMAJORZ
 CODE_SMELL
-Usquid:S1604”"(Make this anonymous inner class a lambda(“è‡HşRMAJORZ
+…squid:CommentedOutCodeLineˆ"<This block of commented-out lines of code should be removed.(¾´Çƒüÿÿÿÿ8‚×Š÷Ó+HÍPRMAJORZ
 CODE_SMELL
-]squid:S1066˜"/Merge this if statement with the enclosing one.(ï£ÆêH×RMAJORZ
+]squid:S1066ê"/Merge this if statement with the enclosing one.(ï£ÆêHÎPRMAJORZ
 CODE_SMELL
-[squid:S1604–"(Make this anonymous inner class a lambda(†÷áüÿÿÿÿHƒ RMAJORZ
+]squid:S1066š"/Merge this if statement with the enclosing one.(ï£ÆêHÏPRMAJORZ
 CODE_SMELL
-Œsquid:S2293Ò"YReplace the type specification in this constructor call with the diamond operator ("<>").(À“¤’øÿÿÿÿHâRMINORZ
+[squid:S1604–"(Make this anonymous inner class a lambda(†÷áüÿÿÿÿHĞPRMAJORZ
 CODE_SMELL
-[squid:S1604É"(Make this anonymous inner class a lambda(†÷áüÿÿÿÿH€ RMAJORZ
+[squid:S1604„"(Make this anonymous inner class a lambda(¹ÍÙıÿÿÿÿHÑPRMAJORZ
 CODE_SMELL
-dsquid:S1135Å"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHõRINFOZ
+]squid:S1066…"/Merge this if statement with the enclosing one.(ï£ÆêHÒPRMAJORZ
 CODE_SMELL
-[squid:S1604°"(Make this anonymous inner class a lambda(†÷áüÿÿÿÿH„ RMAJORZ
+k
+squid:S106Ç"9Replace this use of System.out or System.err by a logger.(¡Æó™şÿÿÿÿHÓPRMAJORZ
 CODE_SMELL
-[squid:S1604"(Make this anonymous inner class a lambda(†÷áüÿÿÿÿH‚ RMAJORZ
+…squid:CommentedOutCodeLineÓ"<This block of commented-out lines of code should be removed.(á¬†µùÿÿÿÿ8‚×Š÷Ó+HÔPRMAJORZ
 CODE_SMELL
-osquid:S2583Ä"CChange this condition so that it does not always evaluate to "true"(ğ¯ìÏıÿÿÿÿHèRMAJORZBUG
-†
-squid:S135¤"YReduce the total number of break and continue statements in this loop to use at most one.(ŞÙ»HåRMINORZ
+Œsquid:S1488ö"^Immediately return this expression instead of assigning it to the temporary variable "standD".(Ëëµ”HÕPRMINORZ
 CODE_SMELL
-[squid:S1604„"(Make this anonymous inner class a lambda(¹ÍÙıÿÿÿÿH† RMAJORZ
+dsquid:S1135§"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHÖPRINFOZ
 CODE_SMELL
-‡squid:S2293€"YReplace the type specification in this constructor call with the diamond operator ("<>").(†Ö·ÚHáRMINORZ
+°squid:S1192©"Define a constant instead of duplicating this literal "-fx-font: 30px Tahoma; -fx-stroke: black; -fx-stroke-width: 1;" 7 times.(«¢ö’H×PRCRITICALZ
 CODE_SMELL
-csquid:S1135E"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHíRINFOZ
+[squid:S1604°"(Make this anonymous inner class a lambda(†÷áüÿÿÿÿHØPRMAJORZ
 CODE_SMELL
-]squid:S1066ˆ"/Merge this if statement with the enclosing one.(ï£ÆêHßRMAJORZ
+Œsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(±8‚×Š÷Ó+HÙPRMINORZ
 CODE_SMELL
-dsquid:S1135ß"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHñRINFOZ
+csquid:S1135E"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHÚPRINFOZ
 CODE_SMELL
-]squid:S1066´"/Merge this if statement with the enclosing one.(ï£ÆêHİRMAJORZ
+‰squid:S00100à"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËñçÄüÿÿÿÿ8‚×Š÷Ó+HÛPRMINORZ
 CODE_SMELL
-rsquid:S3518ü"CMake sure this expression can't be zero before doing this division.(ã—¼ÉşÿÿÿÿHãRCRITICALZBUG
-dsquid:S1854Š"8Remove this useless assignment to local variable "mean".(ÍÇ£ÿÿÿÿÿHˆ RMAJORZBUG
-dsquid:S1135ú"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHòRINFOZ
+squid:S1488À"\Immediately return this expression instead of assigning it to the temporary variable "temp".(Ãş³êúÿÿÿÿHÜPRMINORZ
 CODE_SMELL
-dsquid:S1135§"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHïRINFOZ
+]squid:S1066´"/Merge this if statement with the enclosing one.(ï£ÆêHİPRMAJORZ
 CODE_SMELL
-]squid:S1172a"+Remove this unused method parameter "list".(¨²ÄƒûÿÿÿÿHùRMAJORZ
+]squid:S1066²"/Merge this if statement with the enclosing one.(ï£ÆêHŞPRMAJORZ
 CODE_SMELL
-csquid:S1135x"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHîRINFOZ
+]squid:S1066‰"/Merge this if statement with the enclosing one.(ï£ÆêHßPRMAJORZ
 CODE_SMELL
-]squid:S1066ê"/Merge this if statement with the enclosing one.(ï£ÆêHÚRMAJORZ
+[squid:S1604æ"(Make this anonymous inner class a lambda(†÷áüÿÿÿÿHàPRMAJORZ
 CODE_SMELL
-Œsquid:S1488š"^Immediately return this expression instead of assigning it to the temporary variable "standD".(Ëëµ”HêRMINORZ
+hsquid:S1141´"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿHáPRMAJORZ
 CODE_SMELL
-squid:S1488À"\Immediately return this expression instead of assigning it to the temporary variable "temp".(Ãş³êúÿÿÿÿHëRMINORZ
+Œsquid:S1488š"^Immediately return this expression instead of assigning it to the temporary variable "standD".(Ëëµ”HâPRMINORZ
 CODE_SMELL
-Lsquid:S1166¸"%Either log or rethrow this exception.(”ı¾HüRMAJORZBUG
-]squid:S1066Í"/Merge this if statement with the enclosing one.(ï£ÆêHÙRMAJORZ
+dsquid:S1135Â"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHãPRINFOZ
 CODE_SMELL
-dsquid:S1135ç"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHöRINFOZ
+dsquid:S1135ß"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHäPRINFOZ
 CODE_SMELL
-dsquid:S1135Í"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH÷RINFOZ
+dsquid:S1135ú"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHåPRINFOZ
 CODE_SMELL
-Œsquid:S1488ö"^Immediately return this expression instead of assigning it to the temporary variable "standD".(Ëëµ”HéRMINORZ
+dsquid:S1135Í"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHæPRINFOZ
 CODE_SMELL
-Lsquid:S1166Æ"%Either log or rethrow this exception.(Æâ­êHıRMAJORZBUG
-[squid:S1604æ"(Make this anonymous inner class a lambda(†÷áüÿÿÿÿH RMAJORZ
+„squid:CommentedOutCodeLine7"<This block of commented-out lines of code should be removed.(Ğ¸Èƒüÿÿÿÿ8‚×Š÷Ó+HçPRMAJORZ
 CODE_SMELL
-dsquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHóRINFOZ
+tsquid:S2184‹"HCast one of the operands of this multiplication operation to a "double".(¤¶Å”şÿÿÿÿHèPRMINORZBUG
+Usquid:S1604”"(Make this anonymous inner class a lambda(“è‡HéPRMAJORZ
 CODE_SMELL
-]squid:S1066Ğ"/Merge this if statement with the enclosing one.(ï£ÆêHŞRMAJORZ
+dsquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHêPRINFOZ
 CODE_SMELL
-dsquid:S1135©"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHôRINFOZ
+€squid:CommentedOutCodeLineÅ"<This block of commented-out lines of code should be removed.(ôû®º8‚×Š÷Ó+HëPRMAJORZ
 CODE_SMELL
-nsquid:S2184ü"BCast one of the operands of this division operation to a "double".(ã—¼ÉşÿÿÿÿHÑRMINORZBUG
-dsquid:S1135Â"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHğRINFOZ
+rsquid:S3518ü"CMake sure this expression can't be zero before doing this division.(ã—¼ÉşÿÿÿÿHìPRCRITICALZBUG
+dsquid:S1135©"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHíPRINFOZ
+CODE_SMELL
+f
+squid:S106"9Replace this use of System.out or System.err by a logger.(‡©öêHîPRMAJORZ
+CODE_SMELL
+ˆsquid:S3776Ò"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(º©ï¸şÿÿÿÿHïPRCRITICALZ
+CODE_SMELL
+[squid:S1604É"(Make this anonymous inner class a lambda(†÷áüÿÿÿÿHğPRMAJORZ
+CODE_SMELL
+dsquid:S1135Å"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHñPRINFOZ
+CODE_SMELL
+€squid:CommentedOutCodeLineÿ"<This block of commented-out lines of code should be removed.(‹­¤À8‚×Š÷Ó+HòPRMAJORZ
 CODE_SMELL

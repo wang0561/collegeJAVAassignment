@@ -21,15 +21,7 @@ public class LockDemo {
 		ProducerL pro2 = new ProducerL(r);
 		ConsumerL con2= new ConsumerL(r);
 
-//		Thread t0 = new Thread(pro);
-//		Thread t1 = new Thread(pro);
-//		Thread t2 = new Thread(con);
-//		Thread t3 = new Thread(con);
-//
-//		t0.start();
-//		t1.start();
-//		t2.start();
-//		t3.start();
+
 		ExecutorService executor = Executors.newCachedThreadPool();
 		executor.execute(pro1);
 		executor.execute(con1);
@@ -49,7 +41,7 @@ class ProducerL implements Runnable {
 
 	public void run() {
         
-		int i =100;
+		int i =100000;
 		while (i-->0) {
 			r.set("Computer...");
 		}
@@ -64,7 +56,7 @@ class ConsumerL implements Runnable {
 	}
 
 	public void run() {
-        int i =100;
+        int i =100000;
 		while (i-- >0) {
 			r.out();
 		}

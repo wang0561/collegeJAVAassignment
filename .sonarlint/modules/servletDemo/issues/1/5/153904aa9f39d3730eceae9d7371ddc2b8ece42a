@@ -1,0 +1,27 @@
+
+csquid:S1135 "2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHúRRINFOZ
+CODE_SMELL
+xsquid:S1764)"KCorrect one of the identical sub-expressions on both sides of operator "&&"(îÃÏú8Üî“×+HûRRMAJORZBUG
+lsquid:S1161":Add the "@Override" annotation above this method signature(Ïû©ÖûÿÿÿÿHüRRMAJORZ
+CODE_SMELL
+Gsquid:S1220""Move this file to a named package.HıRRMINORZ
+CODE_SMELL
+]squid:S1989,"&Add a "try/catch" block for "forward".(ãìÄ8Üî“×+HşRRMINORZVULNERABILITY
+Ysquid:S1989:"$Add a "try/catch" block for "doGet".(®Ó‘ûÿÿÿÿÿHÿRRMINORZVULNERABILITY
+csquid:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿH€SRINFOZ
+CODE_SMELL
+bsquid:S19891"&Add a "try/catch" block for "include".(ß‘†¸üÿÿÿÿ8Üî“×+HSRMINORZVULNERABILITY
+bsquid:S19891"&Add a "try/catch" block for "include".(ß‘†¸üÿÿÿÿ8Üî“×+H‚SRMINORZVULNERABILITY
+„squid:CommentedOutCodeLine!"<This block of commented-out lines of code should be removed.(ü“ñûşÿÿÿÿ8Üî“×+HƒSRMAJORZ
+CODE_SMELL
+]squid:S1989,"&Add a "try/catch" block for "forward".(ãìÄ8Üî“×+H„SRMINORZVULNERABILITY
+bsquid:S1481'")Remove this unused "pass" local variable.(áÂ¨ùÿÿÿÿ8Üî“×+H…SRMINORZ
+CODE_SMELL
+csquid:S11359"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH†SRINFOZ
+CODE_SMELL
+gsquid:S11618":Add the "@Override" annotation above this method signature(‹¨¯¿H‡SRMAJORZ
+CODE_SMELL
+Ysquid:S1989:"$Add a "try/catch" block for "doGet".(®Ó‘ûÿÿÿÿÿHˆSRMINORZVULNERABILITY
+]squid:S1989$"(Add a "try/catch" block for "getWriter".(ïô†úÿÿÿÿH‰SRMINORZVULNERABILITY
+qsquid:S1854'"8Remove this useless assignment to local variable "pass".(áÂ¨ùÿÿÿÿ8Üî“×+HŠSRMAJORZ
+CODE_SMELL

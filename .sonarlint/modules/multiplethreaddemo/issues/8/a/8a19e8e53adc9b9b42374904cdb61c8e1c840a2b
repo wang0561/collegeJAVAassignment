@@ -1,0 +1,24 @@
+
+ssquid:S2142,"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8™ÕÀ«å+HáWRMAJORZBUG
+\squid:S1604"(Make this anonymous inner class a lambda(ïÑ¬ 8Á™û+HàWRMAJORZ
+CODE_SMELL
+csquid:S1135!"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHİWRINFOZ
+CODE_SMELL
+squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ßØ²Ã8ğˆÃ·ş+HğWRMAJORZ
+CODE_SMELL
+^squid:S00108,")Either remove or fill this block of code.(ä ¹€8™ÕÀ«å+HåWRMAJORZ
+CODE_SMELL
+q
+squid:S106."9Replace this use of System.out or System.err by a logger.(­­Àäıÿÿÿÿ8Â­™«å+HäWRMAJORZ
+CODE_SMELL
+jsquid:S1135	"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8Â­™«å+HãWRINFOZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(´†‘µ8Á™û+HßWRMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine
+"<This block of commented-out lines of code should be removed.(Å–Íûÿÿÿÿ8ğˆÃ·ş+HïWRMAJORZ
+CODE_SMELL
+rsquid:S2276+"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(­²ÙÍ8é€ù«å+HâWRBLOCKERZBUG
+„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ĞãÎŠùÿÿÿÿ8ÏÄË·ş+HùWRMAJORZ
+CODE_SMELL

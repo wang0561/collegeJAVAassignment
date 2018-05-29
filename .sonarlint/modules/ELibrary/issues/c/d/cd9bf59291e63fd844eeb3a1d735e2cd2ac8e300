@@ -1,0 +1,39 @@
+
+Wsquid:S2068"" Remove this hard-coded password.(ƒ«Ş®ıÿÿÿÿHÇ6RBLOCKERZVULNERABILITY
+Wsquid:S2068j" Remove this hard-coded password.(Ä¸ÎÂûÿÿÿÿHÈ6RBLOCKERZVULNERABILITY
+‹squid:S22930"YReplace the type specification in this constructor call with the diamond operator ("<>").(‡®íıÿÿÿÿHÉ6RMINORZ
+CODE_SMELL
+[squid:S2095".Close this "Connection" in a "finally" clause.(è‰±éûÿÿÿÿHÊ6RBLOCKERZBUG
+[squid:S2095[".Close this "Connection" in a "finally" clause.(è‰±éûÿÿÿÿHË6RBLOCKERZBUG
+]squid:S2095\"5Close this "PreparedStatement" in a "finally" clause.(ù»‹ïHÌ6RBLOCKERZBUG
+bsquid:S2095j"5Close this "PreparedStatement" in a "finally" clause.(Ä¸ÎÂûÿÿÿÿHÍ6RBLOCKERZBUG
+]squid:S2095"5Close this "PreparedStatement" in a "finally" clause.(¯ ÑçHÎ6RBLOCKERZBUG
+[squid:S2095!".Close this "Connection" in a "finally" clause.(è‰±éûÿÿÿÿHÏ6RBLOCKERZBUG
+[squid:S2095G".Close this "Connection" in a "finally" clause.(è‰±éûÿÿÿÿHĞ6RBLOCKERZBUG
+bsquid:S2095""5Close this "PreparedStatement" in a "finally" clause.(ƒ«Ş®ıÿÿÿÿHÑ6RBLOCKERZBUG
+[squid:S2095i".Close this "Connection" in a "finally" clause.(è‰±éûÿÿÿÿHÒ6RBLOCKERZBUG
+[squid:S20952".Close this "Connection" in a "finally" clause.(è‰±éûÿÿÿÿHÓ6RBLOCKERZBUG
+bsquid:S2095H"5Close this "PreparedStatement" in a "finally" clause.(¤ŒğıÿÿÿÿHÔ6RBLOCKERZBUG
+\squid:S20953"5Close this "PreparedStatement" in a "finally" clause.(ìµÁ0HÕ6RBLOCKERZBUG
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(°¿¦ìHÖ6RMAJORZ
+CODE_SMELL
+e
+squid:S106+"9Replace this use of System.out or System.err by a logger.(°¿¦ìH×6RMAJORZ
+CODE_SMELL
+e
+squid:S106@"9Replace this use of System.out or System.err by a logger.(°¿¦ìHØ6RMAJORZ
+CODE_SMELL
+e
+squid:S106T"9Replace this use of System.out or System.err by a logger.(°¿¦ìHÙ6RMAJORZ
+CODE_SMELL
+e
+squid:S106a"9Replace this use of System.out or System.err by a logger.(°¿¦ìHÚ6RMAJORZ
+CODE_SMELL
+e
+squid:S106s"9Replace this use of System.out or System.err by a logger.(°¿¦ìHÛ6RMAJORZ
+CODE_SMELL
+lsquid:S1118":Add a private constructor to hide the implicit public one.(Ñıš×øÿÿÿÿHÜ6RMAJORZ
+CODE_SMELL
+msquid:UselessImportCheck"3Remove this unused import 'java.sql.DriverManager'.(“£°Hİ6RMINORZ
+CODE_SMELL

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<server auto-publish-setting="1" glassfish.adminname="" glassfish.adminpassword="" glassfish.adminserverportnumber="4848" glassfish.debugport="" glassfish.domainpath="D:/glassfish-4.1.1/glassfish/domains/domain1" glassfish.serverportnumber="8090" hostname="localhost" id="GlassFish 4 [domain1]" name="GlassFish 4 [domain1] (2)" runtime-id="GlassFish 4" server-type="glassfish.server" server-type-id="glassfish.server" start-timeout="240" stop-timeout="240" timestamp="12">
+  <list key="modules" value0="servletDemo::org.eclipse.jst.jee.server:servletDemo::jst.web::3.0"/>
+</server>

@@ -153,3 +153,17 @@ E
 src/ShortWordList.txt,4\c\4c4a3d36afd2f4ccc0c107016bb203370e7176ce
 X
 (src/algonquin/cst8284/lab5/WordDump.java,c\5\c5fbe04d9abe144d21a1779ac98be2dcdbc90150
+K
+src/github/test/github.java,b\c\bcc8556c6a03af016c1a57dab739a51ffd3de596
+l
+<src/CH03/designpatterns/observer/weather/DisplayElement.java,8\3\834a2949c1587301517e23f85c423466ffe3bd79
+v
+Fsrc/CH03/designpatterns/observer/weather/CurrentConditionsDisplay.java,f\6\f694802e3fb478ec5d761fced660e787d06020aa
+f
+6src/CH03/designpatterns/observer/weather/Observer.java,6\7\676e65974928b0243a208e1649ed7901b38e77b7
+i
+9src/CH03/designpatterns/observer/weather/WeatherData.java,f\d\fd03e914df618ea1339d5afdcf07b0c9e96232d5
+l
+<src/CH03/designpatterns/observer/weather/WeatherStation.java,d\2\d2c79b0ed4e71eedb704673951c6eebaa60c37a4
+d
+4src/CH07/designpatterns/collections/Collections.java,1\3\131fadb013c0c3c69d923ea5d4fb2b81ecabdad1

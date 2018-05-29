@@ -1,0 +1,21 @@
+
+„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ù›ªóÿÿÿÿÿ8·Ê¿ü+HœWRMAJORZ
+CODE_SMELL
+ssquid:S21421"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8Õ‚­¿ü+HWRMAJORZBUG
+^squid:S001081")Either remove or fill this block of code.(ä ¹€8Õ‚­¿ü+HžWRMAJORZ
+CODE_SMELL
+csquid:S1135"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿHŸWRINFOZ
+CODE_SMELL
+q
+squid:S1063"9Replace this use of System.out or System.err by a logger.(­­Àäýÿÿÿÿ8ŸßÐ¿ü+H WRMAJORZ
+CODE_SMELL
+jsquid:S1135&"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ8Õ‚­¿ü+H¡WRINFOZ
+CODE_SMELL
+k
+squid:S106"9Replace this use of System.out or System.err by a logger.(Äï«L8Õ‚­¿ü+H¢WRMAJORZ
+CODE_SMELL
+wsquid:S22760"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(¤ù»ÿÿÿÿÿ8Õ‚­¿ü+H£WRBLOCKERZBUG
+„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ8·Ê¿ü+H¤WRMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine	"<This block of commented-out lines of code should be removed.(¹ÊëËùÿÿÿÿ8·Ê¿ü+H¥WRMAJORZ
+CODE_SMELL

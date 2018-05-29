@@ -1,0 +1,29 @@
+
+jsquid:S1197"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿHARMINORZ
+CODE_SMELL
+‹squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÂƒØàıÿÿÿÿH‘ARMINORZ
+CODE_SMELL
+e
+squid:S106	"9Replace this use of System.out or System.err by a logger.(Ö½£H’ARMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(ßŸªŠH“ARMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(Æ›¼H”ARMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(¡¹—ÒøÿÿÿÿH•ARMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(€‹‚H–ARMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(¡ÖìâH—ARMAJORZ
+CODE_SMELL
+Xsquid:S1905"+Remove this unnecessary cast to "Iterator".(ïíÿH˜ARMINORZ
+CODE_SMELL
+…squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ùÎÿéH™ARMINORZ
+CODE_SMELL
+—squid:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ÂƒØàıÿÿÿÿHšARMAJORZ
+CODE_SMELL

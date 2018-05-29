@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0" >
+  <display-name>servletDemo</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <!-- servlet for login page -->
+  <servlet>
+  <servlet-name>LoginPage</servlet-name>
+  <servlet-class>
+  LoginPage
+  </servlet-class>
+  
+   
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>
+      LoginPage
+  </servlet-name>
+<url-pattern>
+/login
+</url-pattern>  
+  </servlet-mapping>
+  
+  <!-- servlet for welcome page -->
+  <servlet>
+  <servlet-name>WelcomePage</servlet-name>
+  <servlet-class>WelcomePage</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>WelcomePage</servlet-name>
+  <url-pattern>/welcome</url-pattern>
+  </servlet-mapping>
+  
+  <!-- servlet for search -->
+  <servlet>
+  <servlet-name>MySearch</servlet-name>
+  <servlet-class>MySearch</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>MySearch</servlet-name>
+  <url-pattern>/search</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

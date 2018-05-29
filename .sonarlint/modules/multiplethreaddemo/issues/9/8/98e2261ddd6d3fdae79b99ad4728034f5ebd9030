@@ -1,0 +1,17 @@
+
+^squid:S00108N")Either remove or fill this block of code.(ä ¹€8ÑøÒ·þ+H†XRMAJORZ
+CODE_SMELL
+ssquid:S2142N"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ÑøÒ·þ+H…XRMAJORZBUG
+q
+squid:S106i"9Replace this use of System.out or System.err by a logger.(ùå¥™üÿÿÿÿ8ÑøÒ·þ+HƒXRMAJORZ
+CODE_SMELL
+q
+squid:S106V"9Replace this use of System.out or System.err by a logger.(±¡»Ìýÿÿÿÿ8ÑøÒ·þ+H‚XRMAJORZ
+CODE_SMELL
+Ysquid:S1659D"%Declare "takeptr" on a separate line.(ðÖŸ±8šÌÉ¸þ+H”XRMINORZ
+CODE_SMELL
+ssquid:S2142f"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ÑøÒ·þ+H„XRMAJORZBUG
+Wsquid:S1659D"#Declare "count" on a separate line.(ðÖŸ±8šÌÉ¸þ+H•XRMINORZ
+CODE_SMELL
+^squid:S00108f")Either remove or fill this block of code.(ä ¹€8ÑøÒ·þ+H‡XRMAJORZ
+CODE_SMELL
