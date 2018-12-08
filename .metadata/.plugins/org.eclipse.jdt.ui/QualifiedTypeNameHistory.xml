@@ -52,4 +52,5 @@
 <fullyQualifiedTypeName name="datatransfer.FishStick"/>
 <fullyQualifiedTypeName name="dataaccesslayer.FishStickDaoImpl"/>
 <fullyQualifiedTypeName name="java.rmi.RemoteException"/>
+<fullyQualifiedTypeName name="algonquin.cst8284.assignment3.QA"/>
 </qualifiedTypeNameHistroy>

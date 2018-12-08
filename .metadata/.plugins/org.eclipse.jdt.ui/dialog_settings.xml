@@ -2,7 +2,7 @@
 <section name="Workbench">
 	<item value="0" key="CallHierarchyViewPart.call_mode"/>
 	<item value="2" key="CallHierarchyViewPart.field_mode"/>
-	<item value="C:\Program Files (x86)\MySQL\Connector J 5.1" key="org.eclipse.jdt.ui.lastextjar"/>
+	<item value="D:\computer\winter2018\cst8277\week5 hibernate\mysql-connector-java-5.1.45\mysql-connector-java-5.1.45" key="org.eclipse.jdt.ui.lastextjar"/>
 	<item value="filter_imports;" key="filters_last_used"/>
 	<item value="3" key="CallHierarchyViewPart.orientation"/>
 	<item value="500" key="CallHierarchyViewPart.ratio0"/>
@@ -70,7 +70,7 @@
 	<section name="RenameInformationPopup">
 	</section>
 	<section name="ClasspathContainerSelectionPage">
-		<item value="10" key="index"/>
+		<item value="3" key="index"/>
 	</section>
 	<section name="NewPackageWizardPage">
 		<item value="false" key="create_package_info_java"/>

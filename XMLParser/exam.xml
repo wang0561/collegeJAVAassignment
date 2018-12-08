@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><exam>
+	<student examid="202" idcard="101">
+		<name> Tao </name>
+		<location> Ottawa </location>
+		<grade> 100 </grade>
+	</student>
+	
+</exam>

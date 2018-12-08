@@ -19,7 +19,7 @@ public class Launcher {
     */
 	public static void main(String[] args) {
 		
-			DataLoader loader = new DataLoader();
+			DataLoader loader = new DataLoader(); 
 			loader.startProcess();
 	        try {
 				Thread.sleep(10000);
