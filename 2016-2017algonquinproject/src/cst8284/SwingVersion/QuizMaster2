@@ -1,0 +1,164 @@
+package cst8284.quizMaster;
+
+import java.awt.Component;
+import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import java.util.List;
+
+import javax.swing.*;
+
+public class QuizMaster2 {
+
+	public QuizMaster2()  {
+		chooserpane = new JPanel();
+		try {
+		list = getQAlist();
+		}catch(Exception e) {
+			//System.out.println(e.getMessage());
+			System.exit(0);
+		}
+		frame = new JFrame();
+		
+	}
+	
+	private JFrame frame;
+	private JButton bcheck, bnext;
+	private List<QA> list ;
+	private JLabel explainL;
+	private JPanel chooserpane, handlePane,mainPane;
+	@SuppressWarnings("unused")
+	private int numQA,numCorrect;
+	private QAPanel answerPanel;
+	private String explainStr;
+	private QA qa;
+	private List<QA> getQAlist(){
+		list = null;
+		FileUtils instance  = new FileUtils();
+		return instance.getQAArray(instance.getFileHandle(chooserpane));
+	}
+	
+	public void processQA() {
+		
+		
+		//initialize buttons and labels
+		bnext = new JButton("NEXT");
+		bcheck = new JButton("CHECK");
+		bnext.setEnabled(false);
+		bcheck.setEnabled(true);
+		explainL = new JLabel();
+		explainL.setText("");
+		
+		//choose the current QA object
+		if(list.size()!=0) {
+		qa = list.get(numQA);
+		answerPanel = new QAPanel(list,numQA);
+		explainStr = qa.getExplanation();
+		
+		//set main panel
+		mainPane = new JPanel();
+		mainPane.setLayout(new GridLayout(2,1));
+		mainPane.add(answerPanel);
+		mainPane.add(getHandlePanel());
+		
+		//set frame to be viewed
+		//frame.add(mainPane);
+		frame.setContentPane(mainPane);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.pack();
+		frame.setVisible(true);
+		frame.setBounds(500, 50, 800, 600);
+		}
+
+	}
+
+	private Component getHandlePanel() {
+		// TODO Auto-generated method stub
+		
+		handlePane = new JPanel();
+		handlePane.add(getExplainPanel());
+		handlePane.add(getButtonsPanel());
+		return handlePane;
+	}
+
+	private Component getButtonsPanel() {
+		// TODO Auto-generated method stub
+		JPanel pane = new JPanel();
+		pane.setLayout(new GridLayout(2,1));
+		pane.add(getCheckButton());
+		pane.add(getNextButton());
+		return pane;
+	}
+
+	private Component getNextButton() {
+		// TODO Auto-generated method stub
+		
+		bnext.addActionListener(getNextHandler());
+		return bnext;
+	}
+
+	private ActionListener getNextHandler() {
+		// TODO Auto-generated method stub
+		return new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				numQA++;
+				if(numQA<list.size()) {
+				frame.remove(mainPane);
+				processQA();
+				}
+				else {
+				frame.remove(mainPane);
+				processResult();
+				}
+			}
+			};
+	}
+  
+	protected void processResult() {
+		// TODO Auto-generated method stub
+		
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.pack();
+		frame.setVisible(true);
+		frame.setBounds(500, 50, 800, 400);
+		frame.setContentPane(new ResultPanel(list));
+		
+	}
+
+	private Component getCheckButton() {
+		// TODO Auto-generated method stub
+		bcheck.addActionListener(getCheckHandler());
+		return bcheck;
+	}
+
+	private ActionListener getCheckHandler() {
+		// TODO Auto-generated method stub
+		return new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				// TODO Auto-generated method stub
+				bcheck.setEnabled(false);
+				bnext.setEnabled(true);
+				if(answerPanel.getCorrect()) {
+					numCorrect++;
+					qa.setResult(true);
+				}
+				explainL.setText(explainStr);
+				
+			}
+			
+		};
+	}
+
+	private Component getExplainPanel() {
+		// TODO Auto-generated method stub
+		JPanel pane = new JPanel();
+		pane.add(explainL);
+		return pane;
+	}
+}
