@@ -1,0 +1,37 @@
+package cst8284.quizMaster;
+
+
+import java.util.List;
+
+import javax.swing.*;
+
+public class ResultPanel extends JPanel{
+
+	private static final long serialVersionUID = 1L;
+	private static String [] columns = {"Question","correct answer","explain","difficulty","result "};
+	private Object[][] data;
+	private JTable table;
+	private JButton again ;
+	
+	public ResultPanel(List<QA> list) {
+		// TODO Auto-generated constructor stub
+		data = new Object[list.size()][columns.length];
+		for(int i = 0; i<list.size(); i++) {
+			QA qa  = list.get(i);
+			data[i][0] = qa.getQuestion();
+			data[i][1] = qa.getCorrectAnswerNumber() <0 ||qa.getCorrectAnswerNumber() >qa.getAnswers().length? 0 :qa.getAnswers()[qa.getCorrectAnswerNumber()-1];
+			data[i][2] = qa.getExplanation();
+			data[i][3] = qa.getDifficulty()+"";
+			data[i][4] = qa.isCorrect();
+		}
+		table = new JTable(data,columns);
+		again = new JButton("Do new Quize");
+		again.addActionListener(e->{
+			SwingUtilities.getWindowAncestor(this).dispose();
+			new QuizMaster2().processQA();
+		});
+		this.add(table);
+		this.add(again);
+	}
+
+}
