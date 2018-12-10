@@ -1,0 +1,47 @@
+package java8.stream.demo;
+
+public class Person {
+
+		private String name;
+		private int age;
+		private double salary;
+		private String title;
+		public Person(Builder builder) {
+			this.name = builder.name;
+			this.age = builder.age;
+			this.salary = builder.salary;
+			this.title = builder.title;
+		}
+		public String getName() {
+			return name;
+		}
+
+		public int getAge() {
+			return age;
+		}
+
+		public double getSalary() {
+			return salary;
+		}
+
+		public String getTitle() {
+			return title;
+		}
+		public String toString() {
+			
+			return "NAME: " +name+"; AGE: "+age+"; SALARY: "+salary+ "; JOB TITLE: "+title;
+			
+		}
+		public static class Builder{
+			private String name;
+			private int age;
+			private double salary;
+			private String title;
+			public Builder() {}
+			public Builder setName(String name) {this.name=name;return this;}
+			public Builder setage(int age) {this.age = age; return this;}
+			public Builder setSalary(double salary) {this.salary = salary; return this;}
+			public Builder setTitle(String title) {this.title = title; return this;}
+			public Person build() {return new Person(this);}
+		}
+}
