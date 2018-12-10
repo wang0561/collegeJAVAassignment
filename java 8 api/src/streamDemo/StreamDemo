@@ -1,0 +1,119 @@
+package java8.stream.demo;
+
+import java.util.*;
+import java.util.stream.Collectors;
+
+public class StreamDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<Person> list = new ArrayList<>();
+		init(list);
+
+		// sort list demo
+		sortbyName(list);
+		sortbyAge(list);
+		sortbySalary(list);
+
+		// group by demo
+		groupByTitleandSalary(list);
+		groupByTitleandAge(list);
+	}
+
+	private static void groupByTitleandAge(List<Person> list) {
+		// age by title
+		Map<String, Double> map = list.stream()
+				.collect(Collectors.groupingBy(Person::getTitle, Collectors.averagingDouble(Person::getAge)));
+		System.out.println("\nAverage age by job titl:");
+		for (Map.Entry<String, Double> entry : map.entrySet()) {
+
+			System.out.println("Job Title: " + entry.getKey() + ",average age: " + entry.getValue());
+		}
+		// highest average age
+		Map.Entry<String, Double> entryMax = map.entrySet().stream().max(Map.Entry.comparingByValue()).get();
+		String title = entryMax.getKey();
+		double average = entryMax.getValue();
+		System.out.println("\nHighest average age group is: " + title + ", " + average);
+
+		// lowest average salary
+		Map.Entry<String, Double> entryMin = map.entrySet().stream().min(Map.Entry.comparingByValue()).get();
+		String title2 = entryMin.getKey();
+		double average2 = entryMin.getValue();
+		System.out.println("\nLowest average age group is: " + title2 + ", " + average2);
+
+	}
+
+	private static void groupByTitleandSalary(List<Person> list) {
+		// salary by age
+		Map<String, Double> map = list.stream()
+				.collect(Collectors.groupingBy(Person::getTitle, Collectors.averagingDouble(Person::getSalary)));
+		System.out.println("\nAverage salary by job titl:");
+		for (Map.Entry<String, Double> entry : map.entrySet()) {
+
+			System.out.println("Job Title: " + entry.getKey() + ",average salary: " + entry.getValue());
+		}
+		// highest average salary
+		Map.Entry<String, Double> entryMax = map.entrySet().stream().max(Map.Entry.comparingByValue()).get();
+		String title = entryMax.getKey();
+		double average = entryMax.getValue();
+		System.out.println("\nHighest average salary group is: " + title + ", " + average);
+
+		// lowest average salary
+		Map.Entry<String, Double> entryMin = map.entrySet().stream().min(Map.Entry.comparingByValue()).get();
+		String title2 = entryMin.getKey();
+		double average2 = entryMin.getValue();
+		System.out.println("\nLowest average salary group is: " + title2 + ", " + average2);
+
+	}
+
+	private static void sortbySalary(List<Person> list) {
+		// TODO Auto-generated method stub
+		System.out.println("\nSort by Salary");
+		list.sort(Comparator.comparingDouble(Person::getSalary));
+		list.stream().forEach(System.out::println);
+	}
+
+	private static void sortbyAge(List<Person> list) {
+		// TODO Auto-generated method stub
+		System.out.println("\nSort by Age");
+		list.sort(Comparator.comparingInt(Person::getAge));
+		list.stream().forEach(System.out::println);
+	}
+
+	private static void sortbyName(List<Person> list) {
+		// TODO Auto-generated method stub
+		System.out.println("\nSort by Name");
+		list.sort(Comparator.comparing(Person::getName));
+		list.stream().forEach(System.out::println);
+	}
+
+	private static void init(List<Person> list) {
+
+		Person p1 = new Person.Builder().setName("Ason").setage(18).setSalary(3000).setTitle("worker").build();
+		Person p2 = new Person.Builder().setName("Bson").setage(38).setSalary(10000).setTitle("doctor").build();
+		Person p3 = new Person.Builder().setName("Cson").setage(25).setSalary(5000).setTitle("accountant").build();
+		Person p4 = new Person.Builder().setName("Dson").setage(22).setSalary(3500).setTitle("worker").build();
+		Person p12 = new Person.Builder().setName("Eson").setage(23).setSalary(6500).setTitle("programmer").build();
+		Person p5 = new Person.Builder().setName("Fson").setage(25).setSalary(7000).setTitle("programmer").build();
+		Person p6 = new Person.Builder().setName("Gson").setage(42).setSalary(12000).setTitle("doctor").build();
+		Person p7 = new Person.Builder().setName("Hson").setage(30).setSalary(5500).setTitle("accountant").build();
+		Person p8 = new Person.Builder().setName("Ison").setage(32).setSalary(5000).setTitle("worker").build();
+		Person p9 = new Person.Builder().setName("Json").setage(21).setSalary(3000).setTitle("teller").build();
+		Person p10 = new Person.Builder().setName("Kson").setage(26).setSalary(4000).setTitle("teller").build();
+		Person p11 = new Person.Builder().setName("Lson").setage(20).setSalary(3800).setTitle("worker").build();
+		list.add(p1);
+		list.add(p2);
+		list.add(p3);
+		list.add(p4);
+		list.add(p5);
+		list.add(p6);
+		list.add(p7);
+		list.add(p8);
+		list.add(p9);
+		list.add(p10);
+		list.add(p11);
+		list.add(p12);
+
+	}
+
+}
