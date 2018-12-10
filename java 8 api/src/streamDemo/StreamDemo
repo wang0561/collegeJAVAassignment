@@ -16,8 +16,22 @@ public class StreamDemo {
 		sortbySalary(list);
 
 		// group by demo
+		groupbyTitle(list);
 		groupByTitleandSalary(list);
 		groupByTitleandAge(list);
+	}
+	
+	private static void groupbyTitle(List<Person> list) {
+		Map<String,List<Person>> map = list.stream().collect(Collectors.groupingBy(Person::getTitle));
+		System.out.println("\nPerson Group by job title");
+		for(Map.Entry<String, List<Person>> entry : map.entrySet()) {
+			
+				String title = entry.getKey();
+				List<Person> persons = entry.getValue();
+				System.out.println("Job title :"+title);
+				persons.stream().forEach(System.out::println);
+		}
+		
 	}
 
 	private static void groupByTitleandAge(List<Person> list) {
