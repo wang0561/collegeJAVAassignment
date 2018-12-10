@@ -1,0 +1,72 @@
+package cst8284.quizMaster;
+
+import java.awt.Component;
+import java.awt.GridLayout;
+import java.util.List;
+
+import javax.swing.ButtonGroup;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JRadioButton;
+
+public class QAPanel extends JPanel {
+	
+	
+	private static final long serialVersionUID = 1L;
+	private String[] answers;
+	private	JLabel questionL;
+	private int correctNumber;
+	private ButtonGroup group;
+	private JRadioButton[] buttons;
+	private QA qa;
+	//private boolean isCorrect;
+	
+	public QAPanel(List<QA> list,int currentqa) {
+		// TODO Auto-generated constructor stub
+		super(new GridLayout(2,1));
+		if(!list.isEmpty()) {
+		qa = list.get(currentqa);
+		this.answers = qa.getAnswers();
+		this.questionL = new JLabel(qa.getQuestion());
+		this.correctNumber = qa.getCorrectAnswerNumber();
+		initGUI();
+		}
+	}
+
+	private void initGUI() {
+		// TODO Auto-generated method stub
+		this.add(getGroup());
+	}
+
+	private Component getGroup() {
+		// TODO Auto-generated method stub
+		JPanel answerP = new JPanel();
+		answerP.setLayout(new GridLayout(0,1));
+		answerP.add(questionL);
+		buttons = new JRadioButton[answers.length];
+		group = new ButtonGroup();
+		for(int i = 0; i<buttons.length; i++) {
+			buttons[i] = new JRadioButton();
+			buttons[i].setText(answers[i]);
+			buttons[i].setActionCommand(answers[i]);
+			group.add(buttons[i]);
+			answerP.add(buttons[i]);
+		}
+		return answerP;
+	}
+
+	public boolean getCorrect() {
+		
+		return this.correctNumber == getSelectedNumber();
+	}
+
+	private int getSelectedNumber() {
+		// TODO Auto-generated method stub
+		int i;
+		for(i = 0 ; i< buttons.length ; i++) {
+			if (buttons[i].isSelected())
+				break;
+		}
+		return (i + 1) ;
+	}
+}
