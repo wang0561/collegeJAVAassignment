@@ -1,1 +1,90 @@
 
+package java8.time.api;
+import static java.lang.System.*;
+
+import java.text.SimpleDateFormat;
+import java.time.Duration;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Calendar;
+import java.util.Date;
+public class Timer {
+
+	public static void main(String[] args) {
+		
+		
+//		out.println(new Date());
+//		out.println(LocalDateTime.now().format(DateTimeFormatter.ofPattern("MMM d yyyy hh:mm ss a")));
+		
+		currentTimeDateBeforeJava8();
+		currentTimeDateInJava8();
+		
+		//timeDurationBeforeJava8();
+		timeDurationInJava8();
+		
+	}
+
+	private static void timeDurationInJava8() {
+		out.println("\nTime duration in java 8 :");	
+		LocalTime time1 = LocalTime.now();
+		out.println("Sleep to 5 seconds...");
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		LocalTime time2 = LocalTime.now();
+		Duration duration = Duration.between(time1, time2);
+		
+		long millisecond = duration.toMillis();
+		long seconds = (int)millisecond/ 1000 % 60;
+		long minutes = (int)millisecond/ 1000 / 60;
+		
+		
+		System.out.printf("%02d minutes, %02d seconds, %03d millisecs%n", 
+				minutes,seconds, millisecond%1000 );
+		
+	}
+
+	private static void timeDurationBeforeJava8() {
+		
+		out.println("\nTime duration before java 8 :");
+		long start = System.currentTimeMillis();
+		out.println("Sleep to 5 seconds..");
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		long end = System.currentTimeMillis();
+		long period = end-start;
+		int minutes = (int)period / 1000 / 60;
+		int seconds = (int)period / 1000 % 60;
+		System.out.printf("%02d minutes, %02d seconds, %03d millisecs%n", minutes, seconds, period % 1000);
+	}
+
+	private static void currentTimeDateInJava8() {
+		out.println("\ncurrent time In java 8: ");
+		LocalDateTime timeStamp = LocalDateTime.now();
+		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy/MM/dd  hh:mm:ss a");
+		DateTimeFormatter formatter2 = DateTimeFormatter.ofPattern("MMM d yyyy hh  hh:mm:ss a");
+		String output1 = timeStamp.format(formatter);
+		String output2 = timeStamp.format(formatter2);
+		out.println("way1 : "+ output1);
+		out.println("way2 : "+ output2);
+		
+	}
+
+	private static void currentTimeDateBeforeJava8() {
+		
+		out.println("Current time before java 8: ");
+		String timeStamp1 = new SimpleDateFormat("MMM d yyyy HH:mm:ss a").format(Calendar.getInstance().getTime());
+		String timeStamp2 = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss a").format(new Date().getTime());
+		out.println("way1 : "+timeStamp1);
+		out.println("way2 : "+timeStamp2);
+	}
+   
+}
