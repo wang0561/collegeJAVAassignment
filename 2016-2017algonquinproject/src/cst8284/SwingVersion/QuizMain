@@ -1,0 +1,10 @@
+package cst8284.quizMaster;
+
+public class QuizMain {
+
+	public static void main(String[] args) {
+	
+		new QuizMaster2().processQA();
+	}
+	
+}
