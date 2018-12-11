@@ -1,0 +1,38 @@
+package regex.demo;
+
+import java.util.*;
+import static java.lang.System.*;
+
+public class RegisterValidate {
+    static Scanner input = new Scanner(in);
+    static Register reg;
+    static Validator validator;
+    static 	String email, password;
+	public static void main(String[] args) {
+	
+			inputValidate();
+     }
+	public static void inputValidate() {
+		out.println("Enter an email address:(xxx@xxx.com) ");
+		email = input.next();
+		out.println("Enter the password: "
+				+ "\n1.at least 8 characters"
+				+ "\n2.at least one upper and one lower letter"
+				+ "\n3.at least one digit"
+				+ "\n4.at least one special character in @#%$^ etc.");
+		password = input.next();
+		reg = new Register(email,password);
+		validator = new Validator(reg);
+		while(!validator.validateEmail()) {
+			out.println("enter a valid email:");
+			reg.setEmail(input.next());
+		}
+		while(!validator.validatePassword()) {
+			out.println("enter a valid passwor: ");
+			reg.setPassword(input.next());
+		}
+		out.println("Register successful..");
+		input.close();
+	}
+	
+}
