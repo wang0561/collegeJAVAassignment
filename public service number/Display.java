@@ -45,6 +45,7 @@ public class Display extends Application {
 		initialize(stage);
 		Scene scene = new Scene(getHomePage(), 800, 600);
 		stage.setScene(scene);
+		stage.setTitle("Public Service population by Department from 2009 - 2018");
 		stage.show();
 
 	}
@@ -136,8 +137,96 @@ public class Display extends Application {
 	}
 
 	private void openDeptandnumberpage() {
-		// TODO Auto-generated method stub
+		Stage stage = new Stage();
+		stage.setScene(new Scene(getDeptAndNumberPane(),600,600));
+		stage.setTitle("Number by Department");
+		stage.show();
 
+	}
+
+	@SuppressWarnings("unchecked")
+	private Parent getDeptAndNumberPane() {
+		
+		TableView<DeptAndNumber> table = new TableView<>();
+
+		TableColumn<DeptAndNumber, String> clnDept = new TableColumn<>("Department");
+		clnDept.setMinWidth(200);
+		clnDept.setCellValueFactory(new PropertyValueFactory<>("dept"));
+		clnDept.setStyle("-fx-alignment: CENTER;");
+
+		TableColumn<DeptAndNumber, Integer> clnNumber = new TableColumn<>("Empl Number");
+		clnNumber.setMinWidth(200);
+		clnNumber.setCellValueFactory(new PropertyValueFactory<>("number"));
+		clnNumber.setStyle("-fx-alignment: CENTER;");
+
+		table.setItems(getTableviewOfDeptAndNumber());
+		table.getColumns().addAll(clnDept, clnNumber);
+
+		table.setOnMouseClicked(mouseEvent -> {
+			if (mouseEvent.getButton().equals(MouseButton.PRIMARY)) {
+				if (mouseEvent.getClickCount() == 2) {
+					int row = table.getSelectionModel().getSelectedCells().get(0).getRow();
+					DeptAndNumber dan = table.getItems().get(row);
+					String dept = clnDept.getCellObservableValue(dan).getValue();
+					specificYearAndNumberTable(dept);
+				}
+			}
+		});
+		return table;
+	}
+
+	private void specificYearAndNumberTable(String dept) {
+		// TODO Auto-generated method stub
+		Stage stage = new Stage();
+		stage.setScene(new Scene(getspecificYearAndNumberTable(dept),600,600));
+		stage.setTitle("Department of "+dept);
+		stage.show();
+		
+	}
+
+	@SuppressWarnings("unchecked")
+	private Parent getspecificYearAndNumberTable(String dept) {
+		// TODO Auto-generated method stub
+		
+		TableView<YearAndNumber> table = new TableView<>();
+
+		TableColumn<YearAndNumber, Integer> clnYear = new TableColumn<>("Year");
+		clnYear.setMinWidth(200);
+		clnYear.setCellValueFactory(new PropertyValueFactory<>("Year"));
+		clnYear.setStyle("-fx-alignment: CENTER;");
+
+		TableColumn<YearAndNumber, Integer> clnNumber = new TableColumn<>("Empl Number");
+		clnNumber.setMinWidth(200);
+		clnNumber.setCellValueFactory(new PropertyValueFactory<>("Number"));
+		clnNumber.setStyle("-fx-alignment: CENTER;");
+		
+		table.setItems(getObserverlistofYearandNumber(dept));
+		table.getColumns().addAll(clnYear, clnNumber);
+		
+		return table;
+	}
+
+	private ObservableList<YearAndNumber> getObserverlistofYearandNumber(String dept) {
+		ObservableList<YearAndNumber> data = FXCollections.observableArrayList();
+		List<Employee> list = listofEmp.stream().filter(e -> e.getDept().equals(dept)).collect(Collectors.toList());
+		for(Employee emp : list) {
+			
+			data.add(new YearAndNumber(emp.getYear(),emp.getNumber()));
+		}
+		return data;
+	}
+
+	private ObservableList<DeptAndNumber> getTableviewOfDeptAndNumber() {
+		// TODO Auto-generated method stub
+		ObservableList<DeptAndNumber> data = FXCollections.observableArrayList();
+		Map<String,Integer> map = listofEmp.stream().collect(Collectors.groupingBy(Employee::getDept,Collectors.summingInt(Employee::getNumber)));
+		for(Map.Entry<String, Integer> entry : map.entrySet()) {
+			
+			String dept = entry.getKey();
+			int num = entry.getValue();
+			data.add(new DeptAndNumber(dept,num));
+		}
+		return data;
 	}
 
 	private int getTotalDeptNumber() {
@@ -167,6 +256,7 @@ public class Display extends Application {
 		Stage stage = new Stage();
 		TableView<YearAndNumber> table = getTableViewOfYearAndNumber();
 		stage.setScene(new Scene(table, 600, 400));
+		stage.setTitle("Year and Employee number");
 		stage.show();
 	}
 
@@ -205,15 +295,17 @@ public class Display extends Application {
 	private void specificDeptandNum(int year) {
 		Stage stage = new Stage();
 		stage.setScene(new Scene(getSpecificTableOfDeptAndNum(year), 600, 600));
+		stage.setTitle("Year of "+year);
 		stage.show();
 	}
 
-	@SuppressWarnings("unchecked")
 	private TableView<DeptAndNumber> getSpecificTableOfDeptAndNum(int year) {
 		TableView<DeptAndNumber> table = tableDeptandNum();
 		table.setItems(getObservablelistofDeptAndNumber(year));
 		return table;
 	}
+	
+	@SuppressWarnings("unchecked")
 	private TableView<DeptAndNumber> tableDeptandNum(){
 		
 		TableView<DeptAndNumber> table = new TableView<>();
@@ -230,6 +322,7 @@ public class Display extends Application {
 		table.getColumns().addAll(clnDept, clnNumber);
 		return table;
 	}
+	
 	private ObservableList<DeptAndNumber> getObservablelistofDeptAndNumber(int year) {
 		List<Employee> list = listofEmp.stream().filter(e -> e.getYear() == year).collect(Collectors.toList());
 		
